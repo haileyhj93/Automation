@@ -1,0 +1,39 @@
+[2020-11-12 오전 9:48:10] ---Automation Program Load---
+[2020-11-12 오전 9:48:10] Job List Display Completed!
+[2020-11-12 오전 9:48:15] ---SPI Job Loading Automation Run Start!!!!!---
+[2020-11-12 오전 9:48:15] ---SPI Job Convert Start!!!!!---
+[2020-11-12 오전 9:49:35] ---S:\Test\AFEM-8086-A.mdb_Job Load in C-Editor Completed!---
+[2020-11-12 오전 9:51:51] ---S:\Test\BG_107_R_140.mdb_Job Load in C-Editor Completed!---
+[2020-11-12 오전 9:54:56] ---S:\Test\BSM-J260F$8DS_BM_QE1808OFA014-018_REV0.5.mdb_Job Load in C-Editor Completed!---
+[2020-11-12 오전 9:56:11] ---S:\Test\BSM-J260F$8DS_TM_QE1808OFA077-081_REV0.5.mdb_Job Load in C-Editor Completed!---
+[2020-11-12 오전 9:57:27] ---S:\Test\D241_RS.mdb_Job Load in C-Editor Completed!---
+[2020-11-12 오전 9:57:36] ---S:\Test\D241_RS.mdb_ Job Convert Success!---
+[2020-11-12 오전 9:57:36] ----SPI GUI Job Loading Start!!!----
+[2020-11-12 오전 9:57:36] ----SPIGUI ON----
+[2020-11-12 오전 9:58:36] ---User Login Completed---
+[2020-11-12 오전 9:58:43] --Job File Loading Start-- AFEM-8086-A
+[2020-11-12 오전 9:59:38] Save Vision Error Image Completed!
+[2020-11-12 오전 10:01:54] ---AFEM-8086-A_Job Loading Succcess!!!---
+[2020-11-12 오전 10:01:57] ----SPI GUI Job Loading Start!!!----
+[2020-11-12 오전 10:02:03] --Job File Loading Start-- BG_107_R_140
+[2020-11-12 오전 10:05:36] Save Vision Error Image Completed!
+[2020-11-12 오전 10:05:40] Save Vision Error Image Completed!
+[2020-11-12 오전 10:05:45] Save Vision Error Image Completed!
+[2020-11-12 오전 10:06:36] --crash true--
+[2020-11-12 오전 10:06:36] System.Exception: Crash BG_107_R_140
+   at Automation_JobLoading.MainForm.SPIGUI_JobLoading(StreamWriter sw)
+[2020-11-12 오전 10:06:36] ---BG_107_R_140_Job Loading Fail---
+[2020-11-12 오전 10:06:41] ----Exception 끝----
+[2020-11-12 오전 10:06:41] ----SPI GUI Job Loading Start!!!----
+[2020-11-12 오전 10:06:41] ----SPIGUI ON----
+[2020-11-12 오전 10:06:46] Save Error(Crash) Image Completed!
+[2020-11-12 오전 10:07:19] ---User Login Completed---
+[2020-11-12 오전 10:07:25] --Job File Loading Start-- BSM-J260F$8DS_BM_QE1808OFA014-018_REV0.5
+[2020-11-12 오전 10:07:40] Save Vision Error Image Completed!
+[2020-11-12 오전 10:09:10] ---BSM-J260F$8DS_BM_QE1808OFA014-018_REV0.5_Job Loading Succcess!!!---
+[2020-11-12 오전 10:09:13] ----SPI GUI Job Loading Start!!!----
+[2020-11-12 오전 10:09:20] --Job File Loading Start-- BSM-J260F$8DS_TM_QE1808OFA077-081_REV0.5
+[2020-11-12 오전 10:10:44] ---BSM-J260F$8DS_TM_QE1808OFA077-081_REV0.5_Job Loading Succcess!!!---
+[2020-11-12 오전 10:10:47] ----SPI GUI Job Loading Start!!!----
+[2020-11-12 오전 10:10:54] --Job File Loading Start-- D241_RS
+[2020-11-12 오전 10:12:12] ---D241_RS_Job Loading Succcess!!!---

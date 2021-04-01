@@ -1,0 +1,282 @@
+[2021-02-22 오전 9:16:24] ---Automation Program Load---
+[2021-02-22 오전 9:20:12] ---Automation Program Load---
+[2021-02-22 오전 9:20:43] ---Automation Program Load---
+[2021-02-22 오전 9:21:42] ---Automation Program Load---
+[2021-02-22 오전 11:28:52] ---Automation Program Load---
+[2021-02-22 오전 11:29:02] Job List Display Completed!
+[2021-02-22 오전 11:29:04] ---SPI Job Loading Automation Run Start!!!!!---
+[2021-02-22 오전 11:29:04] ---SPI Job Convert Start!!!!!---
+[2021-02-22 오전 11:29:37] ---Automation Program Load---
+[2021-02-22 오전 11:29:44] Job List Display Completed!
+[2021-02-22 오전 11:29:46] ---SPI Job Loading Automation Run Start!!!!!---
+[2021-02-22 오전 11:29:46] ---SPI Job Convert Start!!!!!---
+[2021-02-22 오전 11:30:19] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\Amkor\0859586GBA_2.mdb_Job Load in C-Editor Completed!---
+[2021-02-22 오전 11:31:18] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\huawei job\1T11SBCB-C-B.mdb_Job Load in C-Editor Completed!---
+[2021-02-22 오전 11:31:38] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_bosch_Suzhou\3332A10012_R2.mdb_Job Load in C-Editor Completed!---
+[2021-02-22 오전 11:32:39] Ranorex.ElementNotFoundException: Failed to find item 'JobLoading_Repository.ComponentID.ButtonYes'. ---> Ranorex.ElementNotFoundException: No element found for path '/form[@processname='CEditor' and @class='#32770']/button[@text='예(&Y)']' within 1m.
+   --- 내부 예외 스택 추적의 끝 ---
+   위치: Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   위치: Ranorex.Core.Repository.RepoItemInfo.<>c__DisplayClass75_0`1.<Find>b__0()
+   위치: Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)
+   위치: Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   위치: Automation_JobLoading.JobLoading_RepositoryFolders.ComponentIDAppFolder.get_ButtonYes()
+   위치: Automation_JobLoading.MainForm.CEditor_JobConvert(StreamWriter sw)
+[2021-02-22 오전 11:33:00] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_bosch_Suzhou\3332A10048_R2.mdb_Job Load in C-Editor Completed!---
+[2021-02-22 오전 11:33:07] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_bosch_Suzhou\3332A10048_R2.mdb_ Job Convert Success!---
+[2021-02-22 오전 11:33:28] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_bosch_Suzhou\3332A10121_R2.mdb_Job Load in C-Editor Completed!---
+[2021-02-22 오전 11:34:02] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_bosch_Suzhou\3332A10121_R2.mdb_ Job Convert Success!---
+[2021-02-22 오전 11:34:23] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_bosch_Suzhou\3332AJ0030_R2.mdb_Job Load in C-Editor Completed!---
+[2021-02-22 오전 11:34:31] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_bosch_Suzhou\3332AJ0030_R2.mdb_ Job Convert Success!---
+[2021-02-22 오전 11:34:52] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_bosch_Suzhou\3332AJ0031_R2.mdb_Job Load in C-Editor Completed!---
+[2021-02-22 오전 11:35:13] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_bosch_Suzhou\3332AJ0035_R2.mdb_Job Load in C-Editor Completed!---
+[2021-02-22 오전 11:35:46] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_bosch_Suzhou\3332AJ0035_R2.mdb_ Job Convert Success!---
+[2021-02-22 오전 11:36:07] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_bosch_Suzhou\3332AJ0038_R2.mdb_Job Load in C-Editor Completed!---
+[2021-02-22 오전 11:36:28] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_bosch_Suzhou\3332AJ0040_R2.mdb_Job Load in C-Editor Completed!---
+[2021-02-22 오전 11:36:33] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_bosch_Suzhou\3332AJ0040_R2.mdb_ Job Convert Success!---
+[2021-02-22 오전 11:36:54] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_bosch_Suzhou\3332AJ0041_R2.mdb_Job Load in C-Editor Completed!---
+[2021-02-22 오전 11:36:59] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_bosch_Suzhou\3332AJ0041_R2.mdb_ Job Convert Success!---
+[2021-02-22 오전 11:37:20] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_bosch_Suzhou\3332AJ0042_R2.mdb_Job Load in C-Editor Completed!---
+[2021-02-22 오전 11:37:54] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_bosch_Suzhou\3332AJ0042_R2.mdb_ Job Convert Success!---
+[2021-02-22 오전 11:38:15] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_bosch_Suzhou\3332AJ0043_R2.mdb_Job Load in C-Editor Completed!---
+[2021-02-22 오전 11:38:21] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_bosch_Suzhou\3332AJ0043_R2.mdb_ Job Convert Success!---
+[2021-02-22 오전 11:38:42] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_bosch_Suzhou\3332AJ0044_R2.mdb_Job Load in C-Editor Completed!---
+[2021-02-22 오전 11:39:16] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_bosch_Suzhou\3332AJ0044_R2.mdb_ Job Convert Success!---
+[2021-02-22 오전 11:39:37] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_bosch_Suzhou\3332AJ0049_R2.mdb_Job Load in C-Editor Completed!---
+[2021-02-22 오전 11:39:43] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_bosch_Suzhou\3332AJ0049_R2.mdb_ Job Convert Success!---
+[2021-02-22 오전 11:40:04] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_bosch_Suzhou\3332AJ0052_R2.mdb_Job Load in C-Editor Completed!---
+[2021-02-22 오전 11:40:12] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_bosch_Suzhou\3332AJ0052_R2.mdb_ Job Convert Success!---
+[2021-02-22 오전 11:40:33] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_bosch_Suzhou\3332AJ0053_R2.mdb_Job Load in C-Editor Completed!---
+[2021-02-22 오전 11:40:53] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_bosch_Suzhou\3338311239_R2.mdb_Job Load in C-Editor Completed!---
+[2021-02-22 오전 11:40:59] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_bosch_Suzhou\3338311239_R2.mdb_ Job Convert Success!---
+[2021-02-22 오전 11:41:19] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_bosch_Suzhou\3338311284_R2.mdb_Job Load in C-Editor Completed!---
+[2021-02-22 오전 11:41:25] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_bosch_Suzhou\3338311284_R2.mdb_ Job Convert Success!---
+[2021-02-22 오전 11:41:46] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_bosch_Suzhou\3338311285_R2.mdb_Job Load in C-Editor Completed!---
+[2021-02-22 오전 11:41:51] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_bosch_Suzhou\3338311285_R2.mdb_ Job Convert Success!---
+[2021-02-22 오전 11:42:12] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_bosch_Suzhou\3338311291_R2.mdb_Job Load in C-Editor Completed!---
+[2021-02-22 오전 11:42:47] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_bosch_Suzhou\3338311291_R2.mdb_ Job Convert Success!---
+[2021-02-22 오전 11:43:08] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_bosch_Suzhou\3338311301_R2.mdb_Job Load in C-Editor Completed!---
+[2021-02-22 오전 11:43:14] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_bosch_Suzhou\3338311301_R2.mdb_ Job Convert Success!---
+[2021-02-22 오전 11:43:34] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_bosch_Suzhou\3338311323_R2.mdb_Job Load in C-Editor Completed!---
+[2021-02-22 오전 11:43:40] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_bosch_Suzhou\3338311323_R2.mdb_ Job Convert Success!---
+[2021-02-22 오전 11:44:01] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_bosch_Suzhou\3338311324_R2.mdb_Job Load in C-Editor Completed!---
+[2021-02-22 오전 11:44:06] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_bosch_Suzhou\3338311324_R2.mdb_ Job Convert Success!---
+[2021-02-22 오전 11:44:27] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_bosch_Suzhou\3338311326_R2.mdb_Job Load in C-Editor Completed!---
+[2021-02-22 오전 11:44:32] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_bosch_Suzhou\3338311326_R2.mdb_ Job Convert Success!---
+[2021-02-22 오전 11:44:54] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_bosch_Suzhou\3338311327_R2.mdb_Job Load in C-Editor Completed!---
+[2021-02-22 오전 11:45:14] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_bosch_Suzhou\3338312040_R2.mdb_Job Load in C-Editor Completed!---
+[2021-02-22 오전 11:45:48] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_bosch_Suzhou\3338312040_R2.mdb_ Job Convert Success!---
+[2021-02-22 오전 11:46:09] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_bosch_Suzhou\3338312112_R2.mdb_Job Load in C-Editor Completed!---
+[2021-02-22 오전 11:46:43] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_bosch_Suzhou\3338312112_R2.mdb_ Job Convert Success!---
+[2021-02-22 오전 11:47:04] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_bosch_Suzhou\3338312255_R2.mdb_Job Load in C-Editor Completed!---
+[2021-02-22 오전 11:47:10] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_bosch_Suzhou\3338312255_R2.mdb_ Job Convert Success!---
+[2021-02-22 오전 11:47:31] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_bosch_Suzhou\3338313034_R2.mdb_Job Load in C-Editor Completed!---
+[2021-02-22 오전 11:47:36] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_bosch_Suzhou\3338313034_R2.mdb_ Job Convert Success!---
+[2021-02-22 오전 11:47:57] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_bosch_Suzhou\3338313076_R2.mdb_Job Load in C-Editor Completed!---
+[2021-02-22 오전 11:48:02] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_bosch_Suzhou\3338313076_R2.mdb_ Job Convert Success!---
+[2021-02-22 오전 11:48:23] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_bosch_Suzhou\3338313192_R2.mdb_Job Load in C-Editor Completed!---
+[2021-02-22 오전 11:48:29] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_bosch_Suzhou\3338313192_R2.mdb_ Job Convert Success!---
+[2021-02-22 오전 11:48:50] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_bosch_Suzhou\3338313251_R2.mdb_Job Load in C-Editor Completed!---
+[2021-02-22 오전 11:48:57] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_bosch_Suzhou\3338313251_R2.mdb_ Job Convert Success!---
+[2021-02-22 오전 11:49:19] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_bosch_Suzhou\3338315080_R2.mdb_Job Load in C-Editor Completed!---
+[2021-02-22 오전 11:49:52] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_bosch_Suzhou\3338315080_R2.mdb_ Job Convert Success!---
+[2021-02-22 오전 11:50:14] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_bosch_Suzhou\3338316080_R2.mdb_Job Load in C-Editor Completed!---
+[2021-02-22 오전 11:50:19] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_bosch_Suzhou\3338316080_R2.mdb_ Job Convert Success!---
+[2021-02-22 오전 11:50:40] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_Compal Kunshan\AT_S-ZFX50-LAB141P-01.mdb_Job Load in C-Editor Completed!---
+[2021-02-22 오전 11:51:00] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_Continental_periferico_VW MIB 9 in A2C13005801\Bottom\VW MIB 9 in A2C13005801 Bottom.mdb_Job Load in C-Editor Completed!---
+[2021-02-22 오전 11:51:21] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_Continental_periferico_VW MIB 9 in A2C13005801\Top\VW MIB 9 in A2C13005801 Top.mdb_Job Load in C-Editor Completed!---
+[2021-02-22 오전 11:51:38] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_Jabil_GDL\4525796_0501 TEST\4525796_0501 TEST.mdb_Job Load in C-Editor Completed!---
+[2021-02-22 오전 11:51:58] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_jinnan_guangzhou\AG-1504041-A1.mdb_Job Load in C-Editor Completed!---
+[2021-02-22 오전 11:52:19] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_jinnan_guangzhou\SVL430A30-V0.1-WP.mdb_Job Load in C-Editor Completed!---
+[2021-02-22 오전 11:52:39] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_jinnan_guangzhou\SVL490A43-SH705-V0.2.mdb_Job Load in C-Editor Completed!---
+[2021-02-22 오전 11:52:59] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_jinnan_guangzhou\SVL490A43-V0.1-WS.mdb_Job Load in C-Editor Completed!---
+[2021-02-22 오전 11:53:19] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_Luxshare_Kunshan\H07 MLB BOT.mdb_Job Load in C-Editor Completed!---
+[2021-02-22 오전 11:53:40] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_S&T Motiv_Yangsan\180823 Alpha_Bottom_Test.mdb_Job Load in C-Editor Completed!---
+[2021-02-22 오전 11:54:15] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_S&T Motiv_Yangsan\180823 Alpha_Bottom_Test.mdb_ Job Convert Success!---
+[2021-02-22 오전 11:54:36] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_S&T Motiv_Yangsan\180823 Alpha_Bottom_Test_Ver 1.0.mdb_Job Load in C-Editor Completed!---
+[2021-02-22 오전 11:55:11] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_S&T Motiv_Yangsan\180823 Alpha_Bottom_Test_Ver 1.0.mdb_ Job Convert Success!---
+[2021-02-22 오전 11:55:31] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_S&T Motiv_Yangsan\180823 Alpha_TOP_Test.mdb_Job Load in C-Editor Completed!---
+[2021-02-22 오전 11:55:52] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_S&T Motiv_Yangsan\180823 Beta_Bottom_Test.mdb_Job Load in C-Editor Completed!---
+[2021-02-22 오전 11:56:12] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_S&T Motiv_Yangsan\180823 Beta_TOP_Test.mdb_Job Load in C-Editor Completed!---
+[2021-02-22 오전 11:56:32] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_S&T Motiv_Yangsan\180823 Gamma_Bottom_Test.mdb_Job Load in C-Editor Completed!---
+[2021-02-22 오전 11:56:52] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_S&T Motiv_Yangsan\180823 Gamma_TOP_Test.mdb_Job Load in C-Editor Completed!---
+[2021-02-22 오전 11:57:13] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_Samsung\Samsung_SPI_test02.mdb_Job Load in C-Editor Completed!---
+[2021-02-22 오전 11:57:33] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_Skyworks\741987SD0A_SKYWORKS.mdb_Job Load in C-Editor Completed!---
+[2021-02-22 오전 11:57:53] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_Skyworks\742223SD0A_SKYWORKS.mdb_Job Load in C-Editor Completed!---
+[2021-02-22 오전 11:58:14] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_Skyworks\800756SD0A_SKYWORKS.mdb_Job Load in C-Editor Completed!---
+[2021-02-22 오전 11:58:43] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_Unclassified Data\0851305SD0A_JEJU4.mdb_Job Load in C-Editor Completed!---
+[2021-02-22 오전 11:59:04] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_Unclassified Data\309000120764B3 MOON-MLB.mdb_Job Load in C-Editor Completed!---
+[2021-02-22 오전 11:59:24] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_Unclassified Data\309000120766T5-7-MOON-MLB.mdb_Job Load in C-Editor Completed!---
+[2021-02-22 오전 11:59:44] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_Unclassified Data\309000319296R1T0  Greedo-R-FLEX - 짼창쩍쨘횏짰 - 쨌횜쩔챵짼창횎횚.mdb_Job Load in C-Editor Completed!---
+[2021-02-22 오후 12:00:04] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_Unclassified Data\309000319296R1T0  Greedo-R-FLEX - 짼창쩍쨘횏짰.mdb_Job Load in C-Editor Completed!---
+[2021-02-22 오후 12:00:25] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_Unclassified Data\309000500379B7-Jupiter-R.mdb_Job Load in C-Editor Completed!---
+[2021-02-22 오후 12:00:45] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_Unclassified Data\309000500379T10 Jupiter-R.mdb_Job Load in C-Editor Completed!---
+[2021-02-22 오후 12:01:05] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_Unclassified Data\309000500379T11 Jupiter-Right.mdb_Job Load in C-Editor Completed!---
+[2021-02-22 오후 12:01:25] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_Unclassified Data\742223GB0B_.mdb_Job Load in C-Editor Completed!---
+[2021-02-22 오후 12:02:10] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_Unclassified Data\780514GB0A.mdb_Job Load in C-Editor Completed!---
+[2021-02-22 오후 12:02:43] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_Unclassified Data\800689GB0A_F+_final_segmentation.mdb_Job Load in C-Editor Completed!---
+[2021-02-22 오후 12:03:01] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_Unclassified Data\808508SD0A_JEDI_F.mdb_Job Load in C-Editor Completed!---
+[2021-02-22 오후 12:04:15] ---D:\SPI Job_Test_1.9.5.0_AL01\SPI Job\SPI_Unclassified Data\ACFM-W223-AK_SL.mdb_Job Load in C-Editor Completed!---
+[2021-02-22 오후 12:16:22] Ranorex.RanorexException: WaitForAttributeEqual failed. The attribute 'Value' did not equal the specified value '29700' before the timeout of 11.7m. The last value found was '0'. Associated repository item: 'JobLoading_Repository.EditComponentID.ProgressBar20WndClass'
+   위치: Ranorex.Core.Repository.RepoItemInfo.WaitForAttributeInternal(Duration waitTimeout, String name, Object value, WaitForAction action)
+   위치: Automation_JobLoading.MainForm.CEditor_JobConvert(StreamWriter sw)
+[2021-02-22 오후 12:17:12] Ranorex.ElementNotFoundException: Failed to find item 'JobLoading_Repository.EditComponentID.LoadJob'. ---> Ranorex.ElementNotFoundException: No element found for path 'toolbar[@class='Toolbar20WndClass']/?/?/button[@commandid='101']' within 30s.
+   --- 내부 예외 스택 추적의 끝 ---
+   위치: Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   위치: Ranorex.Core.Repository.RepoItemInfo.<>c__DisplayClass75_0`1.<Find>b__0()
+   위치: Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)
+   위치: Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   위치: Automation_JobLoading.JobLoading_RepositoryFolders.EditComponentIDAppFolder.get_LoadJob()
+   위치: Automation_JobLoading.MainForm.CEditor_JobConvert(StreamWriter sw)
+[2021-02-22 오후 12:18:02] Ranorex.ElementNotFoundException: Failed to find item 'JobLoading_Repository.EditComponentID.LoadJob'. ---> Ranorex.ElementNotFoundException: No element found for path 'toolbar[@class='Toolbar20WndClass']/?/?/button[@commandid='101']' within 30s.
+   --- 내부 예외 스택 추적의 끝 ---
+   위치: Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   위치: Ranorex.Core.Repository.RepoItemInfo.<>c__DisplayClass75_0`1.<Find>b__0()
+   위치: Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)
+   위치: Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   위치: Automation_JobLoading.JobLoading_RepositoryFolders.EditComponentIDAppFolder.get_LoadJob()
+   위치: Automation_JobLoading.MainForm.CEditor_JobConvert(StreamWriter sw)
+[2021-02-22 오후 12:18:52] Ranorex.ElementNotFoundException: Failed to find item 'JobLoading_Repository.EditComponentID.LoadJob'. ---> Ranorex.ElementNotFoundException: No element found for path 'toolbar[@class='Toolbar20WndClass']/?/?/button[@commandid='101']' within 30s.
+   --- 내부 예외 스택 추적의 끝 ---
+   위치: Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   위치: Ranorex.Core.Repository.RepoItemInfo.<>c__DisplayClass75_0`1.<Find>b__0()
+   위치: Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)
+   위치: Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   위치: Automation_JobLoading.JobLoading_RepositoryFolders.EditComponentIDAppFolder.get_LoadJob()
+   위치: Automation_JobLoading.MainForm.CEditor_JobConvert(StreamWriter sw)
+[2021-02-22 오후 12:19:42] Ranorex.ElementNotFoundException: Failed to find item 'JobLoading_Repository.EditComponentID.LoadJob'. ---> Ranorex.ElementNotFoundException: No element found for path 'toolbar[@class='Toolbar20WndClass']/?/?/button[@commandid='101']' within 30s.
+   --- 내부 예외 스택 추적의 끝 ---
+   위치: Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   위치: Ranorex.Core.Repository.RepoItemInfo.<>c__DisplayClass75_0`1.<Find>b__0()
+   위치: Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)
+   위치: Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   위치: Automation_JobLoading.JobLoading_RepositoryFolders.EditComponentIDAppFolder.get_LoadJob()
+   위치: Automation_JobLoading.MainForm.CEditor_JobConvert(StreamWriter sw)
+[2021-02-22 오후 12:20:32] Ranorex.ElementNotFoundException: Failed to find item 'JobLoading_Repository.EditComponentID.LoadJob'. ---> Ranorex.ElementNotFoundException: No element found for path 'toolbar[@class='Toolbar20WndClass']/?/?/button[@commandid='101']' within 30s.
+   --- 내부 예외 스택 추적의 끝 ---
+   위치: Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   위치: Ranorex.Core.Repository.RepoItemInfo.<>c__DisplayClass75_0`1.<Find>b__0()
+   위치: Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)
+   위치: Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   위치: Automation_JobLoading.JobLoading_RepositoryFolders.EditComponentIDAppFolder.get_LoadJob()
+   위치: Automation_JobLoading.MainForm.CEditor_JobConvert(StreamWriter sw)
+[2021-02-22 오후 12:21:22] Ranorex.ElementNotFoundException: Failed to find item 'JobLoading_Repository.EditComponentID.LoadJob'. ---> Ranorex.ElementNotFoundException: No element found for path 'toolbar[@class='Toolbar20WndClass']/?/?/button[@commandid='101']' within 30s.
+   --- 내부 예외 스택 추적의 끝 ---
+   위치: Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   위치: Ranorex.Core.Repository.RepoItemInfo.<>c__DisplayClass75_0`1.<Find>b__0()
+   위치: Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)
+   위치: Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   위치: Automation_JobLoading.JobLoading_RepositoryFolders.EditComponentIDAppFolder.get_LoadJob()
+   위치: Automation_JobLoading.MainForm.CEditor_JobConvert(StreamWriter sw)
+[2021-02-22 오후 12:22:12] Ranorex.ElementNotFoundException: Failed to find item 'JobLoading_Repository.EditComponentID.LoadJob'. ---> Ranorex.ElementNotFoundException: No element found for path 'toolbar[@class='Toolbar20WndClass']/?/?/button[@commandid='101']' within 30s.
+   --- 내부 예외 스택 추적의 끝 ---
+   위치: Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   위치: Ranorex.Core.Repository.RepoItemInfo.<>c__DisplayClass75_0`1.<Find>b__0()
+   위치: Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)
+   위치: Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   위치: Automation_JobLoading.JobLoading_RepositoryFolders.EditComponentIDAppFolder.get_LoadJob()
+   위치: Automation_JobLoading.MainForm.CEditor_JobConvert(StreamWriter sw)
+[2021-02-22 오후 12:23:02] Ranorex.ElementNotFoundException: Failed to find item 'JobLoading_Repository.EditComponentID.LoadJob'. ---> Ranorex.ElementNotFoundException: No element found for path 'toolbar[@class='Toolbar20WndClass']/?/?/button[@commandid='101']' within 30s.
+   --- 내부 예외 스택 추적의 끝 ---
+   위치: Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   위치: Ranorex.Core.Repository.RepoItemInfo.<>c__DisplayClass75_0`1.<Find>b__0()
+   위치: Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)
+   위치: Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   위치: Automation_JobLoading.JobLoading_RepositoryFolders.EditComponentIDAppFolder.get_LoadJob()
+   위치: Automation_JobLoading.MainForm.CEditor_JobConvert(StreamWriter sw)
+[2021-02-22 오후 12:23:52] Ranorex.ElementNotFoundException: Failed to find item 'JobLoading_Repository.EditComponentID.LoadJob'. ---> Ranorex.ElementNotFoundException: No element found for path 'toolbar[@class='Toolbar20WndClass']/?/?/button[@commandid='101']' within 30s.
+   --- 내부 예외 스택 추적의 끝 ---
+   위치: Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   위치: Ranorex.Core.Repository.RepoItemInfo.<>c__DisplayClass75_0`1.<Find>b__0()
+   위치: Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)
+   위치: Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   위치: Automation_JobLoading.JobLoading_RepositoryFolders.EditComponentIDAppFolder.get_LoadJob()
+   위치: Automation_JobLoading.MainForm.CEditor_JobConvert(StreamWriter sw)
+[2021-02-22 오후 12:24:42] Ranorex.ElementNotFoundException: Failed to find item 'JobLoading_Repository.EditComponentID.LoadJob'. ---> Ranorex.ElementNotFoundException: No element found for path 'toolbar[@class='Toolbar20WndClass']/?/?/button[@commandid='101']' within 30s.
+   --- 내부 예외 스택 추적의 끝 ---
+   위치: Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   위치: Ranorex.Core.Repository.RepoItemInfo.<>c__DisplayClass75_0`1.<Find>b__0()
+   위치: Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)
+   위치: Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   위치: Automation_JobLoading.JobLoading_RepositoryFolders.EditComponentIDAppFolder.get_LoadJob()
+   위치: Automation_JobLoading.MainForm.CEditor_JobConvert(StreamWriter sw)
+[2021-02-22 오후 12:25:32] Ranorex.ElementNotFoundException: Failed to find item 'JobLoading_Repository.EditComponentID.LoadJob'. ---> Ranorex.ElementNotFoundException: No element found for path 'toolbar[@class='Toolbar20WndClass']/?/?/button[@commandid='101']' within 30s.
+   --- 내부 예외 스택 추적의 끝 ---
+   위치: Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   위치: Ranorex.Core.Repository.RepoItemInfo.<>c__DisplayClass75_0`1.<Find>b__0()
+   위치: Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)
+   위치: Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   위치: Automation_JobLoading.JobLoading_RepositoryFolders.EditComponentIDAppFolder.get_LoadJob()
+   위치: Automation_JobLoading.MainForm.CEditor_JobConvert(StreamWriter sw)
+[2021-02-22 오후 12:26:22] Ranorex.ElementNotFoundException: Failed to find item 'JobLoading_Repository.EditComponentID.LoadJob'. ---> Ranorex.ElementNotFoundException: No element found for path 'toolbar[@class='Toolbar20WndClass']/?/?/button[@commandid='101']' within 30s.
+   --- 내부 예외 스택 추적의 끝 ---
+   위치: Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   위치: Ranorex.Core.Repository.RepoItemInfo.<>c__DisplayClass75_0`1.<Find>b__0()
+   위치: Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)
+   위치: Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   위치: Automation_JobLoading.JobLoading_RepositoryFolders.EditComponentIDAppFolder.get_LoadJob()
+   위치: Automation_JobLoading.MainForm.CEditor_JobConvert(StreamWriter sw)
+[2021-02-22 오후 12:27:12] Ranorex.ElementNotFoundException: Failed to find item 'JobLoading_Repository.EditComponentID.LoadJob'. ---> Ranorex.ElementNotFoundException: No element found for path 'toolbar[@class='Toolbar20WndClass']/?/?/button[@commandid='101']' within 30s.
+   --- 내부 예외 스택 추적의 끝 ---
+   위치: Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   위치: Ranorex.Core.Repository.RepoItemInfo.<>c__DisplayClass75_0`1.<Find>b__0()
+   위치: Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)
+   위치: Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   위치: Automation_JobLoading.JobLoading_RepositoryFolders.EditComponentIDAppFolder.get_LoadJob()
+   위치: Automation_JobLoading.MainForm.CEditor_JobConvert(StreamWriter sw)
+[2021-02-22 오후 12:28:03] Ranorex.ElementNotFoundException: Failed to find item 'JobLoading_Repository.EditComponentID.LoadJob'. ---> Ranorex.ElementNotFoundException: No element found for path 'toolbar[@class='Toolbar20WndClass']/?/?/button[@commandid='101']' within 30s.
+   --- 내부 예외 스택 추적의 끝 ---
+   위치: Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   위치: Ranorex.Core.Repository.RepoItemInfo.<>c__DisplayClass75_0`1.<Find>b__0()
+   위치: Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)
+   위치: Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   위치: Automation_JobLoading.JobLoading_RepositoryFolders.EditComponentIDAppFolder.get_LoadJob()
+   위치: Automation_JobLoading.MainForm.CEditor_JobConvert(StreamWriter sw)
+[2021-02-22 오후 12:28:53] Ranorex.ElementNotFoundException: Failed to find item 'JobLoading_Repository.EditComponentID.LoadJob'. ---> Ranorex.ElementNotFoundException: No element found for path 'toolbar[@class='Toolbar20WndClass']/?/?/button[@commandid='101']' within 30s.
+   --- 내부 예외 스택 추적의 끝 ---
+   위치: Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   위치: Ranorex.Core.Repository.RepoItemInfo.<>c__DisplayClass75_0`1.<Find>b__0()
+   위치: Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)
+   위치: Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   위치: Automation_JobLoading.JobLoading_RepositoryFolders.EditComponentIDAppFolder.get_LoadJob()
+   위치: Automation_JobLoading.MainForm.CEditor_JobConvert(StreamWriter sw)
+[2021-02-22 오후 12:29:43] Ranorex.ElementNotFoundException: Failed to find item 'JobLoading_Repository.EditComponentID.LoadJob'. ---> Ranorex.ElementNotFoundException: No element found for path 'toolbar[@class='Toolbar20WndClass']/?/?/button[@commandid='101']' within 30s.
+   --- 내부 예외 스택 추적의 끝 ---
+   위치: Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   위치: Ranorex.Core.Repository.RepoItemInfo.<>c__DisplayClass75_0`1.<Find>b__0()
+   위치: Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)
+   위치: Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   위치: Automation_JobLoading.JobLoading_RepositoryFolders.EditComponentIDAppFolder.get_LoadJob()
+   위치: Automation_JobLoading.MainForm.CEditor_JobConvert(StreamWriter sw)
+[2021-02-22 오후 12:30:33] Ranorex.ElementNotFoundException: Failed to find item 'JobLoading_Repository.EditComponentID.LoadJob'. ---> Ranorex.ElementNotFoundException: No element found for path 'toolbar[@class='Toolbar20WndClass']/?/?/button[@commandid='101']' within 30s.
+   --- 내부 예외 스택 추적의 끝 ---
+   위치: Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   위치: Ranorex.Core.Repository.RepoItemInfo.<>c__DisplayClass75_0`1.<Find>b__0()
+   위치: Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)
+   위치: Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   위치: Automation_JobLoading.JobLoading_RepositoryFolders.EditComponentIDAppFolder.get_LoadJob()
+   위치: Automation_JobLoading.MainForm.CEditor_JobConvert(StreamWriter sw)
+[2021-02-22 오후 12:31:23] Ranorex.ElementNotFoundException: Failed to find item 'JobLoading_Repository.EditComponentID.LoadJob'. ---> Ranorex.ElementNotFoundException: No element found for path 'toolbar[@class='Toolbar20WndClass']/?/?/button[@commandid='101']' within 30s.
+   --- 내부 예외 스택 추적의 끝 ---
+   위치: Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   위치: Ranorex.Core.Repository.RepoItemInfo.<>c__DisplayClass75_0`1.<Find>b__0()
+   위치: Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)
+   위치: Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   위치: Automation_JobLoading.JobLoading_RepositoryFolders.EditComponentIDAppFolder.get_LoadJob()
+   위치: Automation_JobLoading.MainForm.CEditor_JobConvert(StreamWriter sw)
+[2021-02-22 오후 12:31:23] ----SPI GUI Job Loading Start!!!----
+[2021-02-22 오후 12:31:23] ----SPIGUI ON----
+[2021-02-22 오후 12:31:49] Save Vision Error Image Completed!
+[2021-02-22 오후 12:32:57] Ranorex.RanorexException: WaitForAttributeContains failed. Element for item 'JobLoading_Repository.FormOperator.TitleBarOperator' does not exist  (Failed to find item 'JobLoading_Repository.FormOperator.TitleBarOperator'. No element found for path '/form[@title=' - (Operator)']/titlebar[@accessiblerole='TitleBar']' within 1m.).
+   위치: Ranorex.Core.Repository.RepoItemInfo.WaitForAttributeInternal(Duration waitTimeout, String name, Object value, WaitForAction action)
+   위치: Automation_JobLoading.Class.Common.SPIGUION()
+[2021-02-22 오후 3:38:12] Ranorex.ElementNotFoundException: Failed to find item 'JobLoading_Repository.SPIGUI.VisionErrorPopup.ButtonOK'. ---> Ranorex.ElementNotFoundException: No element found for path '?/?/container[@instance='1']' within 30s.
+   --- 내부 예외 스택 추적의 끝 ---
+   위치: Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   위치: Ranorex.Core.Repository.RepoItemInfo.<>c__DisplayClass75_0`1.<Find>b__0()
+   위치: Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)
+   위치: Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   위치: Automation_JobLoading.JobLoading_RepositoryFolders.VisionErrorPopupAppFolder.get_ButtonOK()
+   위치: Automation_JobLoading.Module.VisionErrorWatch.Init(RxPath myPath)
+[2021-02-22 오후 3:38:12] Save Vision Error Image Completed!
+[2021-02-22 오후 4:14:39] ---Automation Program Load---
+[2021-02-22 오후 4:14:50] Job List Display Completed!

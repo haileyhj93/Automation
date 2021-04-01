@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="26.05s"
+		durationms="26046"
+		type="root"
+		rid="ac4a64944553a54"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="T5810"
+		rxversion="8.0.0.0"
+		host="SPI_SIMULATION_"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="ko-KR"
+		screenresolution="1920x1080"
+		timestamp="2020-10-06 오후 4:37:34"
+		timestampiso="2020-10-06T07:37:34"
+		endtime="2020-10-06 오후 4:38:00"
+		timeoutfactor="1"
+		module="ConvertJob">
+		<detail>
+			ConvertJob
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.766"
+			timeRelativeToTestModuleStartTime="00:00.767"
+			timeWallClock="16:37:35"
+			time="00:00.766"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'EditComponentID123MdbJobFileVer.Tools' at 23;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^Edit\ Component\ ID\ :\ 123\.m']/?/?/menuitem[@accessiblename='Tools']"
+				itempath="?/?/menuitem[@accessiblename='Tools']"
+				fullname="JobLoading_Repository.EditComponentID123MdbJobFileVer.Tools"
+				id="a858969b2a164741be09e458e09d16a0"
+				timeout="60000"
+				codefile="C:\Users\T5810\Documents\Ranorex\RanorexStudio Projects\Automation_JobLoading\Automation_JobLoading\Module\ConvertJob.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:26.046"
+			timeRelativeToTestModuleStartTime="00:26.047"
+			timeWallClock="16:38:00"
+			time="00:26.046"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

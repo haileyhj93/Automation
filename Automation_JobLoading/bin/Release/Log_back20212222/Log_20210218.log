@@ -1,0 +1,8 @@
+[2021-02-18 오전 10:50:02] Ranorex.ElementNotFoundException: Failed to find item 'JobLoading_Repository.SPIGUI.LatestOpenJob.ButtonNo'. ---> Ranorex.ElementNotFoundException: No element found for path '/form[@title~'Open Job.*']/?/?/container[@instance='2']' within 1m.
+   --- 내부 예외 스택 추적의 끝 ---
+   위치: Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   위치: Ranorex.Core.Repository.RepoItemInfo.<>c__DisplayClass75_0`1.<Find>b__0()
+   위치: Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)
+   위치: Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   위치: Automation_JobLoading.JobLoading_RepositoryFolders.LatestOpenJobAppFolder.get_ButtonNo()
+   위치: Automation_JobLoading.Class.Common.SPIGUION()

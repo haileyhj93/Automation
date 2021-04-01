@@ -1,0 +1,16 @@
+[2020-12-02 오후 3:06:23] Ranorex.ElementNotFoundException: Failed to find item 'JobLoading_Repository.KSMARTVisionApplication.KSMARTVisionApplication'. ---> Ranorex.ElementNotFoundException: No element found for path '/form[@title='KSMARTVisionApplication']/titlebar[@accessiblerole='TitleBar']' within 1m.
+   --- 내부 예외 스택 추적의 끝 ---
+   위치: Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   위치: Ranorex.Core.Repository.RepoItemInfo.<>c__DisplayClass75_0`1.<Find>b__0()
+   위치: Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)
+   위치: Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   위치: Automation_JobLoading.JobLoading_RepositoryFolders.KSMARTVisionApplicationAppFolder.get_KSMARTVisionApplication()
+   위치: Automation_JobLoading.Module.VisionErrorWatch.Init(RxPath myPath)
+[2020-12-02 오후 3:13:50] Ranorex.ElementNotFoundException: Failed to find item 'JobLoading_Repository.KSMARTVisionApplication.KSMARTVisionApplication'. ---> Ranorex.ElementNotFoundException: No element found for path '/form[@title='KSMARTVisionApplication']/titlebar[@accessiblerole='TitleBar']' within 1m.
+   --- 내부 예외 스택 추적의 끝 ---
+   위치: Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   위치: Ranorex.Core.Repository.RepoItemInfo.<>c__DisplayClass75_0`1.<Find>b__0()
+   위치: Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)
+   위치: Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   위치: Automation_JobLoading.JobLoading_RepositoryFolders.KSMARTVisionApplicationAppFolder.get_KSMARTVisionApplication()
+   위치: Automation_JobLoading.Module.VisionErrorWatch.Init(RxPath myPath)

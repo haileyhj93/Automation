@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="22.15s"
+		durationms="22148"
+		type="root"
+		rid="2cb7ba02c0efe4bc"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="T5810"
+		rxversion="8.0.0.0"
+		host="SPI_SIMULATION_"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="ko-KR"
+		screenresolution="1920x1080"
+		timestamp="2020-10-06 오후 5:19:59"
+		timestampiso="2020-10-06T08:19:59"
+		endtime="2020-10-06 오후 5:20:22"
+		timeoutfactor="1"
+		module="ConvertJob">
+		<detail>
+			ConvertJob
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.873"
+			timeRelativeToTestModuleStartTime="00:00.875"
+			timeWallClock="17:20:00"
+			time="00:00.873"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'EditComponentID123MdbJobFileVer.Tools' at 23;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^Edit\ Component\ ID\.*']/?/?/menuitem[@accessiblename='Tools']"
+				itempath="?/?/menuitem[@accessiblename='Tools']"
+				fullname="JobLoading_Repository.EditComponentID123MdbJobFileVer.Tools"
+				id="a858969b2a164741be09e458e09d16a0"
+				timeout="60000"
+				codefile="C:\Users\T5810\Documents\Ranorex\RanorexStudio Projects\Automation_JobLoading\Automation_JobLoading\Module\ConvertJob.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.952"
+			timeRelativeToTestModuleStartTime="00:01.954"
+			timeWallClock="17:20:01"
+			time="00:01.952"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'CEditor.ConvertJobFileVersion' at 62;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/contextmenu[@processname='CEditor']/?/?/menuitem[@accessiblename='Convert Job File Version']"
+				itempath="?/?/menuitem[@accessiblename='Convert Job File Version']"
+				fullname="JobLoading_Repository.CEditor.ConvertJobFileVersion"
+				id="50a4d2d2447c4f24946a8b57279fd7e0"
+				timeout="60000"
+				codefile="C:\Users\T5810\Documents\Ranorex\RanorexStudio Projects\Automation_JobLoading\Automation_JobLoading\Module\ConvertJob.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.704"
+			timeRelativeToTestModuleStartTime="00:02.706"
+			timeWallClock="17:20:02"
+			time="00:02.704"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ComponentID.ButtonYes' at 57;12.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='CEditor' and @class='#32770']/button[@text='&amp;Yes']"
+				itempath="button[@text='&amp;Yes']"
+				fullname="JobLoading_Repository.ComponentID.ButtonYes"
+				id="580449ba9a4c4bb5ac4dd1d8ce9a4f4f"
+				timeout="60000"
+				codefile="C:\Users\T5810\Documents\Ranorex\RanorexStudio Projects\Automation_JobLoading\Automation_JobLoading\Module\ConvertJob.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.490"
+			timeRelativeToTestModuleStartTime="00:03.492"
+			timeWallClock="17:20:03"
+			time="00:03.490"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ComponentID.ButtonOK' at 56;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='CEditor' and @class='#32770']/button[@text='OK']"
+				itempath="button[@text='OK']"
+				fullname="JobLoading_Repository.ComponentID.ButtonOK"
+				id="cb4e947b84234c6096e95c38238dbae8"
+				timeout="60000"
+				codefile="C:\Users\T5810\Documents\Ranorex\RanorexStudio Projects\Automation_JobLoading\Automation_JobLoading\Module\ConvertJob.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.264"
+			timeRelativeToTestModuleStartTime="00:07.266"
+			timeWallClock="17:20:07"
+			time="00:07.264"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ComponentID.ButtonOK' at 56;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='CEditor' and @class='#32770']/button[@text='OK']"
+				itempath="button[@text='OK']"
+				fullname="JobLoading_Repository.ComponentID.ButtonOK"
+				id="cb4e947b84234c6096e95c38238dbae8"
+				timeout="60000"
+				codefile="C:\Users\T5810\Documents\Ranorex\RanorexStudio Projects\Automation_JobLoading\Automation_JobLoading\Module\ConvertJob.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:22.147"
+			timeRelativeToTestModuleStartTime="00:22.149"
+			timeWallClock="17:20:22"
+			time="00:22.147"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

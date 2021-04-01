@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1b12a6e74ec93948"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="T5810"
+		rxversion="8.0.0.0"
+		host="SPI_SIMULATION_"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="ko-KR"
+		screenresolution="1920x1080"
+		timestamp="2020-10-14 오후 3:22:09"
+		timestampiso="2020-10-14T06:22:09"
+		endtime="2020-10-14 오후 3:22:13"
+		timeoutfactor="1"
+		module="VisionErrorWatch">
+		<detail>
+			VisionErrorWatch
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.777"
+			timeRelativeToTestModuleStartTime="00:00.778"
+			timeWallClock="15:22:10"
+			time="00:00.777"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SPIGUI.VisionErrorPopup' at 320;32.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'Vision Error.*']"
+				itempath="/form[@title~'Vision Error.*']"
+				fullname="JobLoading_Repository.SPIGUI.VisionErrorPopup.Self"
+				id="5f4905566014480c9914958d1b5aefd3"
+				timeout="30000"
+				codefile="S:\Automation\Automation_JobLoading\Automation_JobLoading\Module\VisionErrorWatch.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.488"
+			timeRelativeToTestModuleStartTime="00:02.489"
+			timeWallClock="15:22:12"
+			time="00:02.488"
+			level="Info"
+			category="User"
+			errimg=".\VisionEr_f98c2680_rxlog.jpg"
+			errthumb=".\VisionEr_f98c2680_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="S:\Automation\Automation_JobLoading\Automation_JobLoading\Module\VisionErrorWatch.cs"
+				codeline="86"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.260"
+			timeRelativeToTestModuleStartTime="00:03.261"
+			timeWallClock="15:22:13"
+			time="00:03.260"
+			level="Info"
+			category="User">
+			<message>
+				<a target="_self" href=".\VisionErrorWatch20201014_152207_1_rxlog.rxsnp" onclick="this.href = this.href.replace('file:', 'rxsnp:')">Open Snapshot</a>
+			</message>
+			<metainfo
+				itemindex="2"
+				codefile="S:\Automation\Automation_JobLoading\Automation_JobLoading\Module\VisionErrorWatch.cs"
+				codeline="88"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.261"
+			timeRelativeToTestModuleStartTime="00:03.262"
+			timeWallClock="15:22:13"
+			time="00:03.261"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SPIGUI.VisionErrorPopup.ButtonOK' at 51;16.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'Vision Error.*']/?/?/container[@instance='1']"
+				itempath="?/?/container[@instance='1']"
+				fullname="JobLoading_Repository.SPIGUI.VisionErrorPopup.ButtonOK"
+				id="1123f27cb5e74d51bab9dfa2a9de9d01"
+				timeout="60000"
+				codefile="S:\Automation\Automation_JobLoading\Automation_JobLoading\Module\VisionErrorWatch.cs"
+				codeline="90"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

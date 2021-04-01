@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="531cb286-d23b-442a-b1d1-819655cd7d3f"
+mode="Global"
+rxversion="8.0">
+	<name>
+		Recording1
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Recording1"
+	namespace="Automation_JobLoading.Module">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="87aab238-b640-4adc-9b75-3cc54cb6b691"
+	name="Automation_JobLoadingRepository"
+	relativepath="..\Automation_JobLoadingRepository.rxrep"
+	rxversion="8.0">
+		<codegen
+		classname="Automation_JobLoadingRepository"
+		namespace="Automation_JobLoading">
+		</codegen>
+		<rootfolder
+		id="243c8e09-35b4-4f6a-8f07-2266b574b250"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Recording1.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

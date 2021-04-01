@@ -1,0 +1,9 @@
+﻿<Properties>
+  <ActiveConfiguration value="Debug" />
+  <ActivePlatform value="x86" />
+  <SerializedValue name="ModuleBrowserState">
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" />
+  </SerializedValue>
+  <ProjectBrowserState value="[Solution Automation_JobLoading[Solution Items[]Automation_JobLoading[Class[]Module[ConvertJob.rxrec[]NormalJob.rxrec[]SPIGUI.rxrec[]test.rxrec[]VisionErrorWatch.rxrec[]]Automation_JobLoadingRepository.rxrep[]Converting.cs[]JobLoading_Repository.rxrep[]]]]&#xD;&#xA;Solution Automation_JobLoading\Automation_JobLoading\Class\Common.cs&#xD;&#xA;Solution Automation_JobLoading" />
+  <StartupProject value="{42276AE5-27B1-41C5-ABEE-B7D9436B13B7}" />
+</Properties>

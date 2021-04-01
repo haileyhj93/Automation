@@ -1,0 +1,35 @@
+[2020-11-30 오전 9:52:22] ---Automation Program Load---
+[2020-11-30 오전 9:53:14] ---Automation Program Load---
+[2020-11-30 오전 9:53:25] Job List Display Completed!
+[2020-11-30 오전 9:53:28] ---SPI Job Loading Automation Run Start!!!!!---
+[2020-11-30 오전 9:53:28] ---SPI Job Convert Start!!!!!---
+[2020-11-30 오전 10:08:15] ---Automation Program Load---
+[2020-11-30 오전 10:08:24] Job List Display Completed!
+[2020-11-30 오전 10:08:25] ---SPI Job Loading Automation Run Start!!!!!---
+[2020-11-30 오전 10:08:25] ---SPI Job Convert Start!!!!!---
+[2020-11-30 오전 10:11:22] ---Automation Program Load---
+[2020-11-30 오전 10:11:36] Job List Display Completed!
+[2020-11-30 오전 10:11:38] ---SPI Job Loading Automation Run Start!!!!!---
+[2020-11-30 오전 10:11:38] ---SPI Job Convert Start!!!!!---
+[2020-11-30 오후 1:22:58] ---Automation Program Load---
+[2020-11-30 오후 1:23:04] Job List Display Completed!
+[2020-11-30 오후 1:23:04] ---SPI Job Loading Automation Run Start!!!!!---
+[2020-11-30 오후 1:23:04] ---SPI Job Convert Start!!!!!---
+[2020-11-30 오후 1:23:25] ---D:\Automation\SPI Job\SPI_Compal Kunshan\AT_S-ZFX50-LAB141P-01.mdb_Job Load in C-Editor Completed!---
+[2020-11-30 오후 1:23:45] ---D:\Automation\SPI Job\SPI_Continental_periferico_VW MIB 9 in A2C13005801\Bottom\VW MIB 9 in A2C13005801 Bottom.mdb_Job Load in C-Editor Completed!---
+[2020-11-30 오후 1:24:05] ---D:\Automation\SPI Job\SPI_Continental_periferico_VW MIB 9 in A2C13005801\Top\VW MIB 9 in A2C13005801 Top.mdb_Job Load in C-Editor Completed!---
+[2020-11-30 오후 1:24:05] ----SPI GUI Job Loading Start!!!----
+[2020-11-30 오후 1:24:05] ----SPIGUI ON----
+[2020-11-30 오후 1:24:44] ---User Login Completed---
+[2020-11-30 오후 1:24:51] --Job File Loading Start-- AT_S-ZFX50-LAB141P-01
+[2020-11-30 오후 1:26:17] ---AT_S-ZFX50-LAB141P-01_Job Loading Succcess!!!---
+[2020-11-30 오후 1:26:20] ----SPI GUI Job Loading Start!!!----
+[2020-11-30 오후 1:26:27] --Job File Loading Start-- VW MIB 9 in A2C13005801 Bottom
+[2020-11-30 오후 1:27:46] ---VW MIB 9 in A2C13005801 Bottom_Job Loading Succcess!!!---
+[2020-11-30 오후 1:27:49] ----SPI GUI Job Loading Start!!!----
+[2020-11-30 오후 1:27:56] --Job File Loading Start-- VW MIB 9 in A2C13005801 Top
+[2020-11-30 오후 1:29:13] ---VW MIB 9 in A2C13005801 Top_Job Loading Succcess!!!---
+[2020-12-02 오후 3:06:23] Save Error(Crash) Image Completed!
+[2020-12-02 오후 3:11:10] Save Vision Error Image Completed!
+[2020-12-02 오후 3:13:50] Save Error(Crash) Image Completed!
+[2020-12-02 오후 3:14:22] Save Vision Error Image Completed!

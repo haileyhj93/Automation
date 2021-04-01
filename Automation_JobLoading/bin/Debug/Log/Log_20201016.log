@@ -1,0 +1,128 @@
+[2020-10-16 오전 10:04:34] Program Load
+[2020-10-16 오전 10:04:34] Job List Display Completed!
+[2020-10-16 오전 10:05:01] Program Load
+[2020-10-16 오전 10:05:01] Job List Display Completed!
+[2020-10-16 오전 10:05:48] Program Load
+[2020-10-16 오전 10:05:48] Job List Display Completed!
+[2020-10-16 오전 10:07:45] Program Load
+[2020-10-16 오전 10:07:45] Job List Display Completed!
+[2020-10-16 오전 10:08:14] Save Error Image Completed!
+[2020-10-16 오전 10:10:48] Program Load
+[2020-10-16 오전 10:10:48] Job List Display Completed!
+[2020-10-16 오전 10:11:18] Save Error Image Completed!
+[2020-10-16 오전 10:15:57] Program Load
+[2020-10-16 오전 10:15:57] Job List Display Completed!
+[2020-10-16 오전 10:16:44] Job Load in C-Editor Completed!
+[2020-10-16 오전 10:23:36] Job Load in C-Editor Completed!
+[2020-10-16 오전 10:52:33] Program Load
+[2020-10-16 오전 10:52:33] Job List Display Completed!
+[2020-10-16 오전 10:53:22] Job Load in C-Editor Completed!
+[2020-10-16 오전 10:54:22] Job Load in C-Editor Completed!
+[2020-10-16 오전 10:55:13] Ranorex.ElementNotFoundException: Failed to find item 'JobLoading_Repository.EditComponentID.EditComponentIDTitle'. ---> Ranorex.ElementNotFoundException: No element found for path 'titlebar[@accessiblerole='TitleBar']' within 30s.
+   --- End of inner exception stack trace ---
+   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.<>c__DisplayClass75_0`1.<Find>b__0()
+   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)
+   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   at Automation_JobLoading.JobLoading_RepositoryFolders.EditComponentIDAppFolder.get_EditComponentIDTitle() in S:\Automation\Automation_JobLoading\Automation_JobLoading\JobLoading_Repository.cs:line 820
+   at Automation_JobLoading.MainForm.CEditor_JobConvert() in S:\Automation\Automation_JobLoading\Automation_JobLoading\MainForm.cs:line 129
+[2020-10-16 오전 10:55:29] Popup창 Closed
+[2020-10-16 오전 10:56:32] Ranorex.ElementNotFoundException: Failed to find item 'JobLoading_Repository.SPIGUI.LatestOpenJob.ButtonNo'. ---> Ranorex.ElementNotFoundException: No element found for path '/form[@title~'Open Job.*']/?/?/container[@instance='2']' within 1m.
+   --- End of inner exception stack trace ---
+   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.<>c__DisplayClass75_0`1.<Find>b__0()
+   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)
+   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   at Automation_JobLoading.JobLoading_RepositoryFolders.LatestOpenJobAppFolder.get_ButtonNo() in S:\Automation\Automation_JobLoading\Automation_JobLoading\JobLoading_Repository.cs:line 1513
+   at Automation_JobLoading.Class.Common.SPIGUION() in S:\Automation\Automation_JobLoading\Automation_JobLoading\Class\Common.cs:line 52
+[2020-10-16 오전 11:11:25] Program Load
+[2020-10-16 오전 11:11:26] Job List Display Completed!
+[2020-10-16 오전 11:12:22] Job Load in C-Editor Completed!
+[2020-10-16 오전 11:14:01] Job Load in C-Editor Completed!
+[2020-10-16 오전 11:14:41] Job Load in C-Editor Completed!
+[2020-10-16 오전 11:15:01] Job Load in C-Editor Completed!
+[2020-10-16 오전 11:15:37] S:\SPI Job\SPI_bosch_Suzhou\3332A10048_R2.mdb_ Job Convert Success
+[2020-10-16 오전 11:18:52] Program Load
+[2020-10-16 오전 11:18:52] Job List Display Completed!
+[2020-10-16 오전 11:19:42] Job Load in C-Editor Completed!
+[2020-10-16 오전 11:21:27] Job Load in C-Editor Completed!
+[2020-10-16 오전 11:22:18] Ranorex.RanorexException: WaitForAttributeEqual failed. Element for item 'JobLoading_Repository.ComponentID.ButtonOK1' does not exist  (Failed to find item 'JobLoading_Repository.ComponentID.ButtonOK1'. No element found for path 'button[@text='OK']' within 30s.).
+   at Ranorex.Core.Repository.RepoItemInfo.WaitForAttributeInternal(Duration waitTimeout, String name, Object value, WaitForAction action)
+   at Ranorex.Core.Repository.RepoItemInfo.WaitForAttributeEqual(Duration waitTimeout, String name, Object value)
+   at Automation_JobLoading.MainForm.CEditor_JobConvert() in S:\Automation\Automation_JobLoading\Automation_JobLoading\MainForm.cs:line 141
+[2020-10-16 오전 11:22:26] Popup창 Closed
+[2020-10-16 오전 11:23:30] Ranorex.ElementNotFoundException: Failed to find item 'JobLoading_Repository.SPIGUI.LatestOpenJob.ButtonNo'. ---> Ranorex.ElementNotFoundException: No element found for path '/form[@title~'Open Job.*']/?/?/container[@instance='2']' within 1m.
+   --- End of inner exception stack trace ---
+   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.<>c__DisplayClass75_0`1.<Find>b__0()
+   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)
+   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   at Automation_JobLoading.JobLoading_RepositoryFolders.LatestOpenJobAppFolder.get_ButtonNo() in S:\Automation\Automation_JobLoading\Automation_JobLoading\JobLoading_Repository.cs:line 1513
+   at Automation_JobLoading.Class.Common.SPIGUION() in S:\Automation\Automation_JobLoading\Automation_JobLoading\Class\Common.cs:line 52
+[2020-10-16 오전 11:24:30] Ranorex.ElementNotFoundException: Failed to find item 'JobLoading_Repository.SPIGUI.LoadJobFile.NormalLane2'. ---> Ranorex.ElementNotFoundException: No element found for path '/form[@title='Load Dual Lane JOB file']/?/?/element[@controlid='18']/radiobutton[@accessiblename='Normal']' within 1m.
+   --- End of inner exception stack trace ---
+   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.<>c__DisplayClass75_0`1.<Find>b__0()
+   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)
+   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   at Automation_JobLoading.JobLoading_RepositoryFolders.LoadJobFileAppFolder.get_NormalLane2() in S:\Automation\Automation_JobLoading\Automation_JobLoading\JobLoading_Repository.cs:line 1715
+   at Automation_JobLoading.MainForm.SPIGUI_JobLoading() in S:\Automation\Automation_JobLoading\Automation_JobLoading\MainForm.cs:line 174
+[2020-10-16 오후 12:59:58] Program Load
+[2020-10-16 오후 12:59:58] Job List Display Completed!
+[2020-10-16 오후 1:00:51] Job Load in C-Editor Completed!
+[2020-10-16 오후 1:02:42] Job Load in C-Editor Completed!
+[2020-10-16 오후 1:03:03] OK버튼찾기 시작
+[2020-10-16 오후 1:04:03] Ranorex.RanorexException: Failed to wait for item to exist. ---> Ranorex.ElementNotFoundException: Failed to find item 'JobLoading_Repository.ComponentID.ButtonOK1'. ---> Ranorex.ElementNotFoundException: No element found for path 'button[@text='OK']' within 1m.
+   --- End of inner exception stack trace ---
+   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.<>c__DisplayClass75_0`1.<Find>b__0()
+   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)
+   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.WaitForExists(Duration waitTimeout)
+   --- End of inner exception stack trace ---
+   at Ranorex.Core.Repository.RepoItemInfo.WaitForExists(Duration waitTimeout)
+   at Automation_JobLoading.MainForm.CEditor_JobConvert() in S:\Automation\Automation_JobLoading\Automation_JobLoading\MainForm.cs:line 143
+[2020-10-16 오후 3:25:43] Program Load
+[2020-10-16 오후 3:25:43] Job List Display Completed!
+[2020-10-16 오후 3:26:45] Job Load in C-Editor Completed!
+[2020-10-16 오후 3:28:38] Job Load in C-Editor Completed!
+[2020-10-16 오후 3:29:00] OK버튼찾기 시작
+[2020-10-16 오후 3:30:00] Ranorex.RanorexException: Failed to wait for item to exist. ---> Ranorex.ElementNotFoundException: Failed to find item 'JobLoading_Repository.ComponentID.ButtonOK1'. ---> Ranorex.ElementNotFoundException: No element found for path 'button[@text='OK']' within 1m.
+   --- End of inner exception stack trace ---
+   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.<>c__DisplayClass75_0`1.<Find>b__0()
+   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)
+   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.WaitForExists(Duration waitTimeout)
+   --- End of inner exception stack trace ---
+   at Ranorex.Core.Repository.RepoItemInfo.WaitForExists(Duration waitTimeout)
+   at Automation_JobLoading.MainForm.CEditor_JobConvert() in S:\Automation\Automation_JobLoading\Automation_JobLoading\MainForm.cs:line 144
+[2020-10-16 오후 3:30:09] Popup창 Closed
+[2020-10-16 오후 3:31:12] Ranorex.ElementNotFoundException: Failed to find item 'JobLoading_Repository.SPIGUI.LatestOpenJob.ButtonNo'. ---> Ranorex.ElementNotFoundException: No element found for path '/form[@title~'Open Job.*']/?/?/container[@instance='2']' within 1m.
+   --- End of inner exception stack trace ---
+   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.<>c__DisplayClass75_0`1.<Find>b__0()
+   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)
+   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   at Automation_JobLoading.JobLoading_RepositoryFolders.LatestOpenJobAppFolder.get_ButtonNo() in S:\Automation\Automation_JobLoading\Automation_JobLoading\JobLoading_Repository.cs:line 1513
+   at Automation_JobLoading.Class.Common.SPIGUION() in S:\Automation\Automation_JobLoading\Automation_JobLoading\Class\Common.cs:line 52
+[2020-10-16 오후 3:32:12] Ranorex.ElementNotFoundException: Failed to find item 'JobLoading_Repository.SPIGUI.LoadJobFile.NormalLane2'. ---> Ranorex.ElementNotFoundException: No element found for path '/form[@title='Load Dual Lane JOB file']/?/?/element[@controlid='18']/radiobutton[@accessiblename='Normal']' within 1m.
+   --- End of inner exception stack trace ---
+   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.<>c__DisplayClass75_0`1.<Find>b__0()
+   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)
+   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   at Automation_JobLoading.JobLoading_RepositoryFolders.LoadJobFileAppFolder.get_NormalLane2() in S:\Automation\Automation_JobLoading\Automation_JobLoading\JobLoading_Repository.cs:line 1715
+   at Automation_JobLoading.MainForm.SPIGUI_JobLoading() in S:\Automation\Automation_JobLoading\Automation_JobLoading\MainForm.cs:line 178

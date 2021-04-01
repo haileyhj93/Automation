@@ -1,0 +1,265 @@
+[2020-11-10 오전 10:13:17] Program Load
+[2020-11-10 오전 10:13:17] Job List Display Completed!
+[2020-11-10 오전 10:13:44] --Job File Loading Start--
+[2020-11-10 오전 10:14:38] Save Error Image Completed!
+[2020-11-10 오전 10:26:17] Program Load
+[2020-11-10 오전 10:26:17] Job List Display Completed!
+[2020-11-10 오전 10:27:25] Program Load
+[2020-11-10 오전 10:27:25] Job List Display Completed!
+[2020-11-10 오전 10:27:39] --Job File Loading Start--
+[2020-11-10 오전 10:51:04] AFEM-8086-A_Job Loading Succcess
+[2020-11-10 오전 10:51:19] --Job File Loading Start--
+[2020-11-10 오전 10:54:51] Save Error Image Completed!
+[2020-11-10 오전 10:54:55] Save Error Image Completed!
+[2020-11-10 오전 10:55:00] Save Error Image Completed!
+[2020-11-10 오전 11:15:45] Program Load
+[2020-11-10 오전 11:15:45] Job List Display Completed!
+[2020-11-10 오전 11:16:16] --Job File Loading Start--
+[2020-11-10 오전 11:17:10] Save Error Image Completed!
+[2020-11-10 오전 11:23:21] Program Load
+[2020-11-10 오전 11:23:21] Job List Display Completed!
+[2020-11-10 오전 11:23:46] --Job File Loading Start--
+[2020-11-10 오전 11:26:02] AFEM-8086-A_Job Loading Succcess
+[2020-11-10 오전 11:26:12] --Job File Loading Start--
+[2020-11-10 오전 11:29:40] Save Error Image Completed!
+[2020-11-10 오전 11:29:44] Save Error Image Completed!
+[2020-11-10 오전 11:29:49] Save Error Image Completed!
+[2020-11-10 오전 11:31:22] Ranorex.ElementNotFoundException: Failed to find item 'JobLoading_Repository.SPIGUI.SPIGUI.OpenIcon'. ---> Ranorex.ElementNotFoundException: No element found for path 'container[2]/container/picture[2]' within 30s.
+   --- End of inner exception stack trace ---
+   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.<>c__DisplayClass75_0`1.<Find>b__0()
+   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)
+   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   at Automation_JobLoading.JobLoading_RepositoryFolders.SPIGUIAppFolder.get_OpenIcon() in S:\Automation\Automation_JobLoading\Automation_JobLoading\JobLoading_Repository.cs:line 2088
+   at Automation_JobLoading.MainForm.SPIGUI_JobLoading(StreamWriter sw) in S:\Automation\Automation_JobLoading\Automation_JobLoading\MainForm.cs:line 438
+[2020-11-10 오전 11:31:22] BG_107_R_140_Job Loading Fail
+[2020-11-10 오전 11:32:25] Save Error Image Completed!
+[2020-11-10 오전 11:32:29] --Job File Loading Start--
+[2020-11-10 오후 12:50:04] Program Load
+[2020-11-10 오후 12:50:04] Job List Display Completed!
+[2020-11-10 오후 12:50:22] --Job File Loading Start--
+[2020-11-10 오후 1:03:27] AFEM-8086-A_Job Loading Succcess
+[2020-11-10 오후 1:03:37] --Job File Loading Start--
+[2020-11-10 오후 1:06:41] Save Error Image Completed!
+[2020-11-10 오후 1:06:46] Save Error Image Completed!
+[2020-11-10 오후 1:06:50] Save Error Image Completed!
+[2020-11-10 오후 1:11:31] Program Load
+[2020-11-10 오후 1:11:31] Job List Display Completed!
+[2020-11-10 오후 1:11:50] Save Error Image Completed!
+[2020-11-10 오후 1:12:04] Save Error Image Completed!
+[2020-11-10 오후 1:12:44] Save Error Image Completed!
+[2020-11-10 오후 1:12:51] Save Error Image Completed!
+[2020-11-10 오후 1:17:11] Program Load
+[2020-11-10 오후 1:17:11] Job List Display Completed!
+[2020-11-10 오후 1:17:21] --Job File Loading Start--
+[2020-11-10 오후 1:19:44] AFEM-8086-A_Job Loading Succcess
+[2020-11-10 오후 1:19:54] --Job File Loading Start--
+[2020-11-10 오후 1:22:56] Save Error Image Completed!
+[2020-11-10 오후 1:23:00] Save Error Image Completed!
+[2020-11-10 오후 1:23:05] Save Error Image Completed!
+[2020-11-10 오후 1:35:55] Program Load
+[2020-11-10 오후 1:35:55] Job List Display Completed!
+[2020-11-10 오후 1:36:15] Save Error Image Completed!
+[2020-11-10 오후 1:36:27] Save Error Image Completed!
+[2020-11-10 오후 1:53:12] Program Load
+[2020-11-10 오후 1:53:12] Job List Display Completed!
+[2020-11-10 오후 1:53:23] --Job File Loading Start--
+[2020-11-10 오후 1:55:16] Save Error Image Completed!
+[2020-11-10 오후 1:55:21] Save Error Image Completed!
+[2020-11-10 오후 1:55:25] Save Error Image Completed!
+[2020-11-10 오후 1:55:28] --Quantity창 클릭1--
+[2020-11-10 오후 1:55:31] --첫번째 크래시 체크 완료--
+[2020-11-10 오후 1:55:32] --quantity창 종료버튼 클릭--
+[2020-11-10 오후 1:55:42] --10초대기 완료--
+[2020-11-10 오후 1:55:48] --While문 진입--
+[2020-11-10 오후 1:55:51] --While문 진입--
+[2020-11-10 오후 1:56:51] --While문 빠져나옴--
+[2020-11-10 오후 1:56:52] BG_107_R_140_Job Loading Succcess
+[2020-11-10 오후 1:57:01] --Job File Loading Start--
+[2020-11-10 오후 2:02:04] Save Error Image Completed!
+[2020-11-10 오후 2:02:08] Save Error Image Completed!
+[2020-11-10 오후 2:02:13] Save Error Image Completed!
+[2020-11-10 오후 2:02:16] --Quantity창 클릭1--
+[2020-11-10 오후 2:02:19] --첫번째 크래시 체크 완료--
+[2020-11-10 오후 2:02:19] --quantity창 종료버튼 클릭--
+[2020-11-10 오후 2:02:29] --10초대기 완료--
+[2020-11-10 오후 2:02:36] --While문 진입--
+[2020-11-10 오후 2:02:38] --While문 진입--
+[2020-11-10 오후 2:03:39] --While문 빠져나옴--
+[2020-11-10 오후 2:03:39] BG_107_R_140_original_Job Loading Succcess
+[2020-11-10 오후 2:03:48] --Job File Loading Start--
+[2020-11-10 오후 2:14:54] --Quantity창 클릭1--
+[2020-11-10 오후 2:14:57] --첫번째 크래시 체크 완료--
+[2020-11-10 오후 2:14:58] --quantity창 종료버튼 클릭--
+[2020-11-10 오후 2:15:08] --10초대기 완료--
+[2020-11-10 오후 2:15:11] --While문 진입--
+[2020-11-10 오후 2:15:13] --While문 진입--
+[2020-11-10 오후 2:16:14] --While문 빠져나옴--
+[2020-11-10 오후 2:16:14] BSM-J260F$8DS_BM_QE1808OFA014-018_REV0.5_Job Loading Succcess
+[2020-11-10 오후 2:16:23] --Job File Loading Start--
+[2020-11-10 오후 2:16:31] --Quantity창 클릭1--
+[2020-11-10 오후 2:16:34] --첫번째 크래시 체크 완료--
+[2020-11-10 오후 2:16:35] --quantity창 종료버튼 클릭--
+[2020-11-10 오후 2:16:45] --10초대기 완료--
+[2020-11-10 오후 2:17:45] --While문 빠져나옴--
+[2020-11-10 오후 2:17:46] BSM-J260F$8DS_TM_QE1808OFA077-081_REV0.5_Job Loading Succcess
+[2020-11-10 오후 2:17:55] --Job File Loading Start--
+[2020-11-10 오후 2:18:03] --Quantity창 클릭1--
+[2020-11-10 오후 2:18:06] --첫번째 크래시 체크 완료--
+[2020-11-10 오후 2:18:07] --quantity창 종료버튼 클릭--
+[2020-11-10 오후 2:18:17] --10초대기 완료--
+[2020-11-10 오후 2:19:17] --While문 빠져나옴--
+[2020-11-10 오후 2:19:18] BSM-J410F$16DS_BM_QH1812OFA237-238_REV0.2_Job Loading Succcess
+[2020-11-10 오후 2:19:27] --Job File Loading Start--
+[2020-11-10 오후 2:19:34] --Quantity창 클릭1--
+[2020-11-10 오후 2:19:37] --첫번째 크래시 체크 완료--
+[2020-11-10 오후 2:19:38] --quantity창 종료버튼 클릭--
+[2020-11-10 오후 2:19:48] --10초대기 완료--
+[2020-11-10 오후 2:20:48] --While문 빠져나옴--
+[2020-11-10 오후 2:20:49] BSM-J410F$16DS_TM_QH1812OFA257-260_REV0.2_Job Loading Succcess
+[2020-11-10 오후 2:20:58] --Job File Loading Start--
+[2020-11-10 오후 2:21:04] --Quantity창 클릭1--
+[2020-11-10 오후 2:21:07] --첫번째 크래시 체크 완료--
+[2020-11-10 오후 2:21:08] --quantity창 종료버튼 클릭--
+[2020-11-10 오후 2:21:18] --10초대기 완료--
+[2020-11-10 오후 2:22:18] --While문 빠져나옴--
+[2020-11-10 오후 2:22:18] D241_RS_Job Loading Succcess
+[2020-11-10 오후 2:22:27] --Job File Loading Start--
+[2020-11-10 오후 2:22:39] --Quantity창 클릭1--
+[2020-11-10 오후 2:22:42] --첫번째 크래시 체크 완료--
+[2020-11-10 오후 2:22:43] --quantity창 종료버튼 클릭--
+[2020-11-10 오후 2:22:53] --10초대기 완료--
+[2020-11-10 오후 2:23:53] --While문 빠져나옴--
+[2020-11-10 오후 2:23:53] OFF1652-F04305SD19090018_Job Loading Succcess
+[2020-11-10 오후 2:24:02] --Job File Loading Start--
+[2020-11-10 오후 2:24:10] --Quantity창 클릭1--
+[2020-11-10 오후 2:24:13] --첫번째 크래시 체크 완료--
+[2020-11-10 오후 2:24:13] --quantity창 종료버튼 클릭--
+[2020-11-10 오후 2:24:23] --10초대기 완료--
+[2020-11-10 오후 2:25:24] --While문 빠져나옴--
+[2020-11-10 오후 2:25:24] OJP1155-B-A0_Job Loading Succcess
+[2020-11-10 오후 2:25:33] --Job File Loading Start--
+[2020-11-10 오후 2:26:18] Save Error Image Completed!
+[2020-11-10 오후 2:26:23] Save Error Image Completed!
+[2020-11-10 오후 2:26:27] Save Error Image Completed!
+[2020-11-10 오후 2:26:28] --Quantity창 클릭1--
+[2020-11-10 오후 2:26:31] --첫번째 크래시 체크 완료--
+[2020-11-10 오후 2:26:31] --quantity창 종료버튼 클릭--
+[2020-11-10 오후 2:26:41] --10초대기 완료--
+[2020-11-10 오후 2:27:41] --While문 빠져나옴--
+[2020-11-10 오후 2:27:42] SWB-E43 R03A TOP _201810-024 L1_Job Loading Succcess
+[2020-11-10 오후 2:27:51] --Job File Loading Start--
+[2020-11-10 오후 2:28:39] Save Error Image Completed!
+[2020-11-10 오후 2:28:43] Save Error Image Completed!
+[2020-11-10 오후 2:28:48] Save Error Image Completed!
+[2020-11-10 오후 2:28:48] --Quantity창 클릭1--
+[2020-11-10 오후 2:28:51] --첫번째 크래시 체크 완료--
+[2020-11-10 오후 2:28:52] --quantity창 종료버튼 클릭--
+[2020-11-10 오후 2:29:02] --10초대기 완료--
+[2020-11-10 오후 2:30:02] --While문 빠져나옴--
+[2020-11-10 오후 2:30:03] SWB-E43 R03A TOP _201810-024 L2_Job Loading Succcess
+[2020-11-10 오후 2:30:12] --Job File Loading Start--
+[2020-11-10 오후 2:31:23] Save Error Image Completed!
+[2020-11-10 오후 2:31:28] Save Error Image Completed!
+[2020-11-10 오후 2:31:32] Save Error Image Completed!
+[2020-11-10 오후 2:31:33] --Quantity창 클릭1--
+[2020-11-10 오후 2:31:36] --첫번째 크래시 체크 완료--
+[2020-11-10 오후 2:31:36] --quantity창 종료버튼 클릭--
+[2020-11-10 오후 2:31:46] --10초대기 완료--
+[2020-11-10 오후 2:32:46] --While문 빠져나옴--
+[2020-11-10 오후 2:32:47] SWB-E43 R03A TOP _201810-024 L2_Test_Job Loading Succcess
+[2020-11-10 오후 2:32:56] --Job File Loading Start--
+[2020-11-10 오후 2:34:09] --Quantity창 클릭1--
+[2020-11-10 오후 2:34:12] --첫번째 크래시 체크 완료--
+[2020-11-10 오후 2:34:13] --quantity창 종료버튼 클릭--
+[2020-11-10 오후 2:34:23] --10초대기 완료--
+[2020-11-10 오후 2:35:23] --While문 빠져나옴--
+[2020-11-10 오후 2:35:23] TW61-D725-001_Job Loading Succcess
+[2020-11-10 오후 2:35:32] --Job File Loading Start--
+[2020-11-10 오후 2:35:48] --Quantity창 클릭1--
+[2020-11-10 오후 2:35:51] --첫번째 크래시 체크 완료--
+[2020-11-10 오후 2:35:51] --quantity창 종료버튼 클릭--
+[2020-11-10 오후 2:36:01] --10초대기 완료--
+[2020-11-10 오후 2:37:01] --While문 빠져나옴--
+[2020-11-10 오후 2:37:02] TW61-D725-001_2 pad only_20191205_Job Loading Succcess
+[2020-11-10 오후 2:37:11] --Job File Loading Start--
+[2020-11-10 오후 2:37:45] --Quantity창 클릭1--
+[2020-11-10 오후 2:37:48] --첫번째 크래시 체크 완료--
+[2020-11-10 오후 2:37:49] --quantity창 종료버튼 클릭--
+[2020-11-10 오후 2:37:59] --10초대기 완료--
+[2020-11-10 오후 2:38:59] --While문 빠져나옴--
+[2020-11-10 오후 2:38:59] TW61-D725-001_20PERCENT_Job Loading Succcess
+[2020-11-10 오후 2:39:08] --Job File Loading Start--
+[2020-11-10 오후 2:39:26] --Quantity창 클릭1--
+[2020-11-10 오후 2:39:29] --첫번째 크래시 체크 완료--
+[2020-11-10 오후 2:39:30] --quantity창 종료버튼 클릭--
+[2020-11-10 오후 2:39:40] --10초대기 완료--
+[2020-11-10 오후 2:40:40] --While문 빠져나옴--
+[2020-11-10 오후 2:40:40] VIPER 2L #10-J63545_Job Loading Succcess
+[2020-11-10 오후 2:40:49] --Job File Loading Start--
+[2020-11-10 오후 2:40:57] --Quantity창 클릭1--
+[2020-11-10 오후 2:41:00] --첫번째 크래시 체크 완료--
+[2020-11-10 오후 2:41:00] --quantity창 종료버튼 클릭--
+[2020-11-10 오후 2:41:10] --10초대기 완료--
+[2020-11-10 오후 2:41:12] --While문 진입--
+[2020-11-10 오후 2:41:15] --While문 진입--
+[2020-11-10 오후 2:42:15] --While문 빠져나옴--
+[2020-11-10 오후 2:42:15] VIPER 2XL #23-J64132_1_Job Loading Succcess
+[2020-11-10 오후 2:42:24] --Job File Loading Start--
+[2020-11-10 오후 2:42:30] --Quantity창 클릭1--
+[2020-11-10 오후 2:42:33] --첫번째 크래시 체크 완료--
+[2020-11-10 오후 2:42:34] --quantity창 종료버튼 클릭--
+[2020-11-10 오후 2:42:44] --10초대기 완료--
+[2020-11-10 오후 2:43:44] --While문 빠져나옴--
+[2020-11-10 오후 2:43:45] XK06560_another_120um 90_v1_Job Loading Succcess
+[2020-11-10 오후 2:45:17] Program Load
+[2020-11-10 오후 2:45:17] Job List Display Completed!
+[2020-11-10 오후 2:45:28] --Job File Loading Start--
+[2020-11-10 오후 2:46:11] --Quantity창 클릭1--
+[2020-11-10 오후 2:46:14] --첫번째 크래시 체크 완료--
+[2020-11-10 오후 2:46:15] --quantity창 종료버튼 클릭--
+[2020-11-10 오후 2:46:25] --10초대기 완료--
+[2020-11-10 오후 2:47:25] --While문 빠져나옴--
+[2020-11-10 오후 2:47:26] AFEM-8086-A_Job Loading Succcess
+[2020-11-10 오후 2:47:36] --Job File Loading Start--
+[2020-11-10 오후 2:50:41] Save Error Image Completed!
+[2020-11-10 오후 2:50:46] Save Error Image Completed!
+[2020-11-10 오후 2:50:50] Save Error Image Completed!
+[2020-11-10 오후 2:50:53] --Quantity창 클릭1--
+[2020-11-10 오후 2:50:56] --첫번째 크래시 체크 완료--
+[2020-11-10 오후 2:50:56] --quantity창 종료버튼 클릭--
+[2020-11-10 오후 2:51:06] --10초대기 완료--
+[2020-11-10 오후 2:51:13] --While문 진입--
+[2020-11-10 오후 2:51:15] --While문 진입--
+[2020-11-10 오후 2:51:49] --While문 빠져나옴--
+[2020-11-10 오후 2:52:24] Ranorex.ElementNotFoundException: Failed to find item 'JobLoading_Repository.SPIGUI.SPIGUI.OpenIcon'. ---> Ranorex.ElementNotFoundException: No element found for path 'container[2]/container/picture[2]' within 30s.
+   --- End of inner exception stack trace ---
+   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.<>c__DisplayClass75_0`1.<Find>b__0()
+   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)
+   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   at Automation_JobLoading.JobLoading_RepositoryFolders.SPIGUIAppFolder.get_OpenIcon() in S:\Automation\Automation_JobLoading\Automation_JobLoading\JobLoading_Repository.cs:line 2088
+   at Automation_JobLoading.MainForm.SPIGUI_JobLoading(StreamWriter sw) in S:\Automation\Automation_JobLoading\Automation_JobLoading\MainForm.cs:line 470
+[2020-11-10 오후 2:52:24] BG_107_R_140_Job Loading Fail
+[2020-11-10 오후 2:52:31] Save Error Image Completed!
+[2020-11-10 오후 2:54:28] Ranorex.ElementNotFoundException: Failed to find item 'JobLoading_Repository.SPIGUI.SPIGUI.OpenIcon'. ---> Ranorex.ElementNotFoundException: No element found for path '/form[@title~'^Solder\ Paste\ 3D\ Inspectio']/container[2]/container/picture[2]' within 1m.
+   --- End of inner exception stack trace ---
+   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.<>c__DisplayClass75_0`1.<Find>b__0()
+   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)
+   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   at Automation_JobLoading.JobLoading_RepositoryFolders.SPIGUIAppFolder.get_OpenIcon() in S:\Automation\Automation_JobLoading\Automation_JobLoading\JobLoading_Repository.cs:line 2088
+   at Automation_JobLoading.MainForm.SPIGUI_JobLoading(StreamWriter sw) in S:\Automation\Automation_JobLoading\Automation_JobLoading\MainForm.cs:line 281
+[2020-11-10 오후 2:54:28] BG_107_R_140_Job Loading Fail
+[2020-11-10 오후 6:44:17] Program Load
+[2020-11-10 오후 6:44:17] Job List Display Completed!
+[2020-11-10 오후 6:44:24] Save Error Image Completed!
+[2020-11-10 오후 6:58:10] Program Load
+[2020-11-10 오후 6:58:10] Job List Display Completed!
+[2020-11-10 오후 6:58:14] ----시작----

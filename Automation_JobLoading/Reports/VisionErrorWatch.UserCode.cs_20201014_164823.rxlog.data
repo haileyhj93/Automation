@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1936cacf68e01ddc"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="T5810"
+		rxversion="8.0.0.0"
+		host="SPI_SIMULATION_"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="ko-KR"
+		screenresolution="1920x1080"
+		timestamp="2020-10-14 오후 4:48:25"
+		timestampiso="2020-10-14T07:48:25"
+		endtime="2020-10-14 오후 4:48:29"
+		timeoutfactor="1"
+		module="VisionErrorWatch">
+		<detail>
+			VisionErrorWatch
+		</detail>
+		<varbindings>
+		</varbindings>
+	</activity>
+</report>

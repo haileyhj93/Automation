@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="323974633399932"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="T5810"
+		rxversion="8.0.0.0"
+		host="SPI_SIMULATION_"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="ko-KR"
+		screenresolution="1920x1080"
+		timestamp="2020-11-06 오전 10:48:55"
+		timestampiso="2020-11-06T01:48:55"
+		endtime="2020-11-06 오전 10:51:43"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.012"
+			timeRelativeToTestModuleStartTime="00:00.012"
+			timeWallClock="10:48:55"
+			time="00:00.012"
+			level="Info"
+			category="Popup Watcher"
+			style="background-color: #c0d0f0">
+			<message>
+				Found popup dialog '/form[@processname='KY-3030' and @class='#32770']'.
+			</message>
+			<metainfo
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.851"
+			timeRelativeToTestModuleStartTime="00:01.851"
+			timeWallClock="10:48:57"
+			time="00:01.851"
+			level="Info"
+			category="Popup Watcher"
+			style="background-color: #c0d0f0">
+			<message>
+				Found popup dialog '/form[@processname='KY-3030' and @class='#32770']'.
+			</message>
+			<metainfo
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:51.725"
+			timeRelativeToTestModuleStartTime="00:51.725"
+			timeWallClock="10:49:47"
+			time="00:51.725"
+			level="Info"
+			category="Popup Watcher"
+			style="background-color: #c0d0f0">
+			<message>
+				Found popup dialog '/form[@title~'Vision Error.*']'.
+			</message>
+			<metainfo
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:57.205"
+			timeRelativeToTestModuleStartTime="00:57.205"
+			timeWallClock="10:49:52"
+			time="00:57.205"
+			level="Info"
+			category="Popup Watcher"
+			style="background-color: #c0d0f0">
+			<message>
+				Found popup dialog '/form[@title~'Vision Error.*']'.
+			</message>
+			<metainfo
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:01.727"
+			timeRelativeToTestModuleStartTime="01:01.727"
+			timeWallClock="10:49:57"
+			time="01:01.727"
+			level="Info"
+			category="Popup Watcher"
+			style="background-color: #c0d0f0">
+			<message>
+				Found popup dialog '/form[@title~'Vision Error.*']'.
+			</message>
+			<metainfo
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:40.848"
+			timeRelativeToTestModuleStartTime="01:40.848"
+			timeWallClock="10:50:36"
+			time="01:40.848"
+			level="Info"
+			category="Popup Watcher"
+			style="background-color: #c0d0f0">
+			<message>
+				Found popup dialog '/form[@processname='KY-3030' and @class='#32770']'.
+			</message>
+			<metainfo
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:44.244"
+			timeRelativeToTestModuleStartTime="01:44.244"
+			timeWallClock="10:50:39"
+			time="01:44.244"
+			level="Info"
+			category="Popup Watcher"
+			style="background-color: #c0d0f0">
+			<message>
+				Found popup dialog '/form[@processname='KY-3030' and @class='#32770']'.
+			</message>
+			<metainfo
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:49.593"
+			timeRelativeToTestModuleStartTime="01:49.593"
+			timeWallClock="10:50:45"
+			time="01:49.593"
+			level="Info"
+			category="Popup Watcher"
+			style="background-color: #c0d0f0">
+			<message>
+				Found popup dialog '/form[@processname='KY-3030' and @class='#32770']'.
+			</message>
+			<metainfo
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:53.816"
+			timeRelativeToTestModuleStartTime="01:53.816"
+			timeWallClock="10:50:49"
+			time="01:53.816"
+			level="Info"
+			category="Popup Watcher"
+			style="background-color: #c0d0f0">
+			<message>
+				Found popup dialog '/form[@processname='KY-3030' and @class='#32770']'.
+			</message>
+			<metainfo
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:55.924"
+			timeRelativeToTestModuleStartTime="01:55.924"
+			timeWallClock="10:50:51"
+			time="01:55.924"
+			level="Info"
+			category="Popup Watcher"
+			style="background-color: #c0d0f0">
+			<message>
+				Found popup dialog '/form[@processname='KY-3030' and @class='#32770']'.
+			</message>
+			<metainfo
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:57.755"
+			timeRelativeToTestModuleStartTime="01:57.755"
+			timeWallClock="10:50:53"
+			time="01:57.755"
+			level="Info"
+			category="Popup Watcher"
+			style="background-color: #c0d0f0">
+			<message>
+				Found popup dialog '/form[@processname='KY-3030' and @class='#32770']'.
+			</message>
+			<metainfo
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

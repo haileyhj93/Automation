@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{42276AE5-27B1-41C5-ABEE-B7D9436B13B7}</ProjectGuid>
+    <TargetFrameworkProfile />
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Automation_JobLoading</RootNamespace>
+    <AssemblyName>Automation_JobLoading</AssemblyName>
+    <RanorexVersion>8.0</RanorexVersion>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <RanorexTargetsPath>$(MSBuildProgramFiles32)\MSBuild\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+    <projectdefaultrepository>36f9ad87-dd82-46d8-a9d4-676a4ddd45f8</projectdefaultrepository>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.WindowsAPICodePack, Version=1.1.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\WindowsAPICodePack-Core.1.1.2\lib\Microsoft.WindowsAPICodePack.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAPICodePack.Shell, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\WindowsAPICodePack-Shell.1.1.1\lib\Microsoft.WindowsAPICodePack.Shell.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Bootstrapper">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core.Resolver">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Cef">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.ChromeWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.FirefoxWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Flex">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Java">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Mobile">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Msaa">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Office">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Qt">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.RawText">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Sap">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Uia">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Web">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WebDriver">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Win32">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="UIAutomationClient" />
+    <Reference Include="UIAutomationClientsideProviders" />
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="UIAutomationTypes" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>cb566880-5a8a-4205-9719-a84abecf9b98</id>
+    </Compile>
+    <Compile Include="Automation_JobLoadingRepository.cs">
+      <DependentUpon>Automation_JobLoadingRepository.rxrep</DependentUpon>
+      <id>b9118855-15d9-437b-9768-fe486a2274e0</id>
+      <BoundTo>36f9ad87-dd82-46d8-a9d4-676a4ddd45f8</BoundTo>
+      <RepositoryCode>true</RepositoryCode>
+    </Compile>
+    <Compile Include="Class\Common.cs">
+      <id>99ef90a6-8272-49c7-aa2d-7895a5abd68a</id>
+    </Compile>
+    <Compile Include="Class\Inspection.cs">
+      <id>53e916b7-a1b8-4c01-89d2-e4f51c6510be</id>
+    </Compile>
+    <Compile Include="Class\Log.cs">
+      <id>81d9c671-86df-4667-9fe3-9b9a4f467c71</id>
+    </Compile>
+    <Compile Include="Class\Setting.cs">
+      <id>70a12c2b-a8ff-45bb-be7c-26540131b9af</id>
+    </Compile>
+    <Compile Include="Inspection.cs">
+      <id>9ee7ccd8-00e9-4f9e-8708-56c3186201af</id>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inspection.Designer.cs">
+      <DependentUpon>Inspection.cs</DependentUpon>
+      <id>e4af98cc-298d-4f8a-a186-7460c4f109a4</id>
+      <BoundTo>9ee7ccd8-00e9-4f9e-8708-56c3186201af</BoundTo>
+    </Compile>
+    <Compile Include="Converting.cs">
+      <id>254d23ff-29b5-4762-9159-720233f88fb2</id>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Converting.Designer.cs">
+      <DependentUpon>Converting.cs</DependentUpon>
+      <BoundTo>254d23ff-29b5-4762-9159-720233f88fb2</BoundTo>
+      <id>9dac4cbf-142c-481d-8c53-81dab218781b</id>
+    </Compile>
+    <Compile Include="JobLoading_Repository.cs">
+      <DependentUpon>JobLoading_Repository.rxrep</DependentUpon>
+      <id>a825888b-5c88-484c-9dd8-59737cd4abaa</id>
+      <BoundTo>17bf085a-1432-4980-b511-de5ffaa3f797</BoundTo>
+      <RepositoryCode>true</RepositoryCode>
+    </Compile>
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+      <id>4da8c011-ada1-4ae1-b6a0-33180fc65af5</id>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+      <id>9e6fcc70-0a8b-4e76-a59b-fb9f1dca9b64</id>
+      <BoundTo>4da8c011-ada1-4ae1-b6a0-33180fc65af5</BoundTo>
+    </Compile>
+    <Compile Include="Module\ConvertJob.cs">
+      <BoundTo>a66a8325-0983-43dc-bdc5-94363e8449be</BoundTo>
+      <DependentUpon>ConvertJob.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ba54d635-e09c-4131-bc20-ffc63a41ecb6</id>
+    </Compile>
+    <Compile Include="Module\ConvertJob.UserCode.cs">
+      <BoundTo>a66a8325-0983-43dc-bdc5-94363e8449be</BoundTo>
+      <DependentUpon>ConvertJob.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>35af6b18-1fae-43ca-9b11-45f827bb8784</id>
+    </Compile>
+    <Compile Include="Module\NormalJob.cs">
+      <BoundTo>9a594227-509e-4d39-ae32-fb843633e9cf</BoundTo>
+      <DependentUpon>NormalJob.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>dedae586-62ff-47fe-8842-275f67097918</id>
+    </Compile>
+    <Compile Include="Module\NormalJob.UserCode.cs">
+      <BoundTo>9a594227-509e-4d39-ae32-fb843633e9cf</BoundTo>
+      <DependentUpon>NormalJob.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>5b809809-f0c1-4e24-9510-94d8ba7dfc3f</id>
+    </Compile>
+    <Compile Include="Module\SPIGUI.cs">
+      <BoundTo>cb571d6f-0463-468c-b171-1c495b5e2f84</BoundTo>
+      <DependentUpon>SPIGUI.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>87ddc560-ed7d-4823-b07c-41bd65490984</id>
+    </Compile>
+    <Compile Include="Module\SPIGUI.UserCode.cs">
+      <BoundTo>cb571d6f-0463-468c-b171-1c495b5e2f84</BoundTo>
+      <DependentUpon>SPIGUI.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>8f00e18e-0582-4dc8-9992-0d730effdd22</id>
+    </Compile>
+    <Compile Include="Module\test.cs">
+      <BoundTo>482360be-1c5a-46ed-8d1a-ad5988323b39</BoundTo>
+      <DependentUpon>test.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>34639595-5f6c-408f-aee8-d3c54cd1c998</id>
+    </Compile>
+    <Compile Include="Module\test.UserCode.cs">
+      <BoundTo>482360be-1c5a-46ed-8d1a-ad5988323b39</BoundTo>
+      <DependentUpon>test.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>9bc79866-a0cc-4805-8d23-624d8ef7622a</id>
+    </Compile>
+    <Compile Include="Module\VisionErrorWatch.cs">
+      <BoundTo>d4c1542d-911d-490a-951f-b009bcf7115d</BoundTo>
+      <DependentUpon>VisionErrorWatch.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>00e773b6-8d0d-41b4-be6b-17f5e772b513</id>
+    </Compile>
+    <Compile Include="Module\VisionErrorWatch.UserCode.cs">
+      <BoundTo>d4c1542d-911d-490a-951f-b009bcf7115d</BoundTo>
+      <DependentUpon>VisionErrorWatch.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>639028d4-70e6-4298-af43-6541297ab2a5</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>46638b98-2e75-45ff-88b8-79e8dc57aef7</id>
+    </Compile>
+    <Compile Include="Variability.cs">
+      <SubType>Form</SubType>
+      <id>5dec4d72-6caf-4b90-80e9-5b0ad5049fe6</id>
+    </Compile>
+    <Compile Include="Variability.Designer.cs">
+      <DependentUpon>Variability.cs</DependentUpon>
+      <id>6d7019bc-97ce-434f-aee1-38f278cff9a0</id>
+      <BoundTo>5dec4d72-6caf-4b90-80e9-5b0ad5049fe6</BoundTo>
+    </Compile>
+    <Compile Include="VisionAnlTool.cs">
+      <id>a2d8e24a-96e5-4715-a11b-ba1e95fc7bf4</id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <id>0834d651-7185-4e87-928c-6687e55c3384</id>
+    </None>
+    <None Include="Automation_JobLoadingRepository.rximg">
+      <DependentUpon>Automation_JobLoadingRepository.rxrep</DependentUpon>
+      <id>3dcd51d4-0199-45a5-940e-307977312228</id>
+      <BoundTo>36f9ad87-dd82-46d8-a9d4-676a4ddd45f8</BoundTo>
+      <imageblob>true</imageblob>
+    </None>
+    <None Include="Automation_JobLoadingRepository.rxrep">
+      <id>36f9ad87-dd82-46d8-a9d4-676a4ddd45f8</id>
+      <repoid>87aab238-b640-4adc-9b75-3cc54cb6b691</repoid>
+      <reporootid>243c8e09-35b4-4f6a-8f07-2266b574b250</reporootid>
+    </None>
+    <None Include="JobLoading_Repository.rximg">
+      <DependentUpon>JobLoading_Repository.rxrep</DependentUpon>
+      <id>ad13139e-a832-4a05-abda-3a7032b7f27b</id>
+      <imageblob>true</imageblob>
+      <BoundTo>17bf085a-1432-4980-b511-de5ffaa3f797</BoundTo>
+    </None>
+    <None Include="JobLoading_Repository.rxrep">
+      <id>17bf085a-1432-4980-b511-de5ffaa3f797</id>
+      <repoid>d3e351ad-e5b7-45bd-a5fa-b9fc4ac22095</repoid>
+      <reporootid>0d091d12-238a-4178-bbf7-38fa5813d2ab</reporootid>
+    </None>
+    <None Include="Module\ConvertJob.rxrec">
+      <BoundTo>17bf085a-1432-4980-b511-de5ffaa3f797</BoundTo>
+      <id>a66a8325-0983-43dc-bdc5-94363e8449be</id>
+      <recordtableid>bfbea05a-315d-4cd3-9756-b5a16af76b39</recordtableid>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Module\NormalJob.rxrec">
+      <BoundTo>36f9ad87-dd82-46d8-a9d4-676a4ddd45f8</BoundTo>
+      <id>9a594227-509e-4d39-ae32-fb843633e9cf</id>
+      <recordtableid>aa0e41cc-e9b2-473f-8281-3c3e247cd7b4</recordtableid>
+    </None>
+    <None Include="Module\SPIGUI.rxrec">
+      <BoundTo>17bf085a-1432-4980-b511-de5ffaa3f797</BoundTo>
+      <id>cb571d6f-0463-468c-b171-1c495b5e2f84</id>
+      <recordtableid>2eec5a8d-638e-4b35-98aa-6ca8a1ff8b89</recordtableid>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Module\test.rxrec">
+      <BoundTo>36f9ad87-dd82-46d8-a9d4-676a4ddd45f8</BoundTo>
+      <id>482360be-1c5a-46ed-8d1a-ad5988323b39</id>
+      <recordtableid>f3ea9af1-56cd-4695-9090-b448e25c523b</recordtableid>
+    </None>
+    <None Include="Module\VisionErrorWatch.rxrec">
+      <id>d4c1542d-911d-490a-951f-b009bcf7115d</id>
+      <recordtableid>48c14493-c233-4175-838b-cba424ff21ce</recordtableid>
+      <BoundTo>17bf085a-1432-4980-b511-de5ffaa3f797</BoundTo>
+    </None>
+    <None Include="packages.config">
+      <id>c1a1d3d6-416c-48d9-9f84-6b62547cbedf</id>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Converting.resx">
+      <DependentUpon>Converting.cs</DependentUpon>
+      <id>1dbeecdd-45a9-48be-9ce3-5949ea8579c1</id>
+      <BoundTo>254d23ff-29b5-4762-9159-720233f88fb2</BoundTo>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inspection.resx">
+      <DependentUpon>Inspection.cs</DependentUpon>
+      <id>314d3f3b-ae6b-4f10-9158-c31a2989db22</id>
+      <BoundTo>9ee7ccd8-00e9-4f9e-8708-56c3186201af</BoundTo>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+      <id>563665a2-83ff-4ebe-b780-a6e52fb74b4b</id>
+      <BoundTo>4da8c011-ada1-4ae1-b6a0-33180fc65af5</BoundTo>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Variability.resx">
+      <DependentUpon>Variability.cs</DependentUpon>
+      <id>602ce99e-cdf2-496c-a4c0-f74de0308992</id>
+      <BoundTo>5dec4d72-6caf-4b90-80e9-5b0ad5049fe6</BoundTo>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />
+</Project>

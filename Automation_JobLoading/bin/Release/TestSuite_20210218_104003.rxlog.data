@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="InProgress">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1b25eaf9daa00b9f"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Z440"
+		rxversion="8.0.0.0"
+		host="Z440-PC"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="ko-KR"
+		screenresolution="1920x1080"
+		timestamp="2021-02-18 오전 10:40:03"
+		timestampiso="2021-02-18T01:40:03"
+		endtime="2021-02-18 오전 10:40:37"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.031"
+			timeRelativeToTestModuleStartTime="00:03.032"
+			timeWallClock="10:40:06"
+			time="00:03.031"
+			level="Info"
+			category="Application">
+			<message>
+				Run application 'D:\SPIAuto_hailey\KYconfig.ini_Copy.bat' with arguments '' in normal mode.
+			</message>
+			<metainfo
+				itemindex="24"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

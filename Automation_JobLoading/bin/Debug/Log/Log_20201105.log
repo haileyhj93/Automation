@@ -1,0 +1,170 @@
+[2020-11-05 오후 3:36:38] --Job File Loading Start--
+[2020-11-05 오후 3:36:44] 첫번째대기
+[2020-11-05 오후 3:36:52] 두번째대기
+[2020-11-05 오후 3:37:23] 세번째대기
+[2020-11-05 오후 3:37:33] 대기끝
+[2020-11-05 오후 3:37:34] SWB-E43 R03A TOP _201810-024 L1_Job Loading Succcess
+[2020-11-05 오후 3:37:44] Save Error Image Completed!
+[2020-11-05 오후 3:38:01] quantity창 종료버튼 클릭
+[2020-11-05 오후 3:38:09] --Job File Loading Start--
+[2020-11-05 오후 3:38:10] quantity창 종료버튼 클릭
+[2020-11-05 오후 3:38:13] 첫번째대기
+[2020-11-05 오후 3:38:17] 두번째대기
+[2020-11-05 오후 3:38:48] 세번째대기
+[2020-11-05 오후 3:38:58] 대기끝
+[2020-11-05 오후 3:38:59] SWB-E43 R03A TOP _201810-024 L2_Test_Job Loading Succcess
+[2020-11-05 오후 3:39:15] --Job File Loading Start--
+[2020-11-05 오후 3:39:23] 첫번째대기
+[2020-11-05 오후 3:39:26] 두번째대기
+[2020-11-05 오후 3:39:57] 세번째대기
+[2020-11-05 오후 3:40:07] 대기끝
+[2020-11-05 오후 3:40:47] TW61-D725-001_Job Loading Succcess
+[2020-11-05 오후 3:40:47] quantity창 종료버튼 클릭
+[2020-11-05 오후 3:40:50] quantity창 종료버튼 클릭
+[2020-11-05 오후 3:41:56] Ranorex.ElementNotFoundException: Failed to find item 'JobLoading_Repository.SPIGUI.LoadJobFile.JobPathLane2'. ---> Ranorex.ElementNotFoundException: No element found for path '/form[@title='Load Dual Lane JOB file']/?/?/element[@controlid='20']/text[@controlid='1001']' within 1m.
+   --- End of inner exception stack trace ---
+   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.<>c__DisplayClass75_0`1.<Find>b__0()
+   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)
+   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   at Automation_JobLoading.JobLoading_RepositoryFolders.LoadJobFileAppFolder.get_JobPathLane2() in S:\Automation\Automation_JobLoading\Automation_JobLoading\JobLoading_Repository.cs:line 1721
+   at Automation_JobLoading.MainForm.SPIGUI_JobLoading(StreamWriter sw) in S:\Automation\Automation_JobLoading\Automation_JobLoading\MainForm.cs:line 287
+[2020-11-05 오후 3:41:56] TW61-D725-001_Job Loading Fail
+[2020-11-05 오후 4:41:14] Program Load
+[2020-11-05 오후 4:41:14] Job List Display Completed!
+[2020-11-05 오후 4:44:06] Program Load
+[2020-11-05 오후 4:44:06] Job List Display Completed!
+[2020-11-05 오후 4:44:45] --Job File Loading Start--
+[2020-11-05 오후 4:44:59] Program Load
+[2020-11-05 오후 4:44:59] Job List Display Completed!
+[2020-11-05 오후 4:45:26] --Job File Loading Start--
+[2020-11-05 오후 4:45:33] 첫번째대기
+[2020-11-05 오후 4:45:40] 두번째대기
+[2020-11-05 오후 4:46:33] 세번째대기
+[2020-11-05 오후 4:46:43] 대기끝
+[2020-11-05 오후 4:46:45] SWB-E43 R03A TOP _201810-024 L1_Job Loading Succcess
+[2020-11-05 오후 4:46:48] Save Error Image Completed!
+[2020-11-05 오후 4:46:57] Save Error Image Completed!
+[2020-11-05 오후 4:47:02] quantity창 종료버튼 클릭
+[2020-11-05 오후 4:51:03] Program Load
+[2020-11-05 오후 4:51:03] Job List Display Completed!
+[2020-11-05 오후 4:51:35] --Job File Loading Start--
+[2020-11-05 오후 4:51:41] 첫번째대기
+[2020-11-05 오후 4:51:46] 두번째대기
+[2020-11-05 오후 4:52:16] 세번째대기
+[2020-11-05 오후 4:52:26] 대기끝
+[2020-11-05 오후 4:52:28] SWB-E43 R03A TOP _201810-024 L1_Job Loading Succcess
+[2020-11-05 오후 4:52:31] Save Error Image Completed!
+[2020-11-05 오후 4:52:44] Save Error Image Completed!
+[2020-11-05 오후 4:52:53] quantity창 종료버튼 클릭
+[2020-11-05 오후 4:54:03] Ranorex.ElementNotFoundException: Failed to find item 'JobLoading_Repository.SPIGUI.LoadJobFile.JobPathLane1'. ---> Ranorex.ElementNotFoundException: No element found for path '/form[@title='Load Dual Lane JOB file']/?/?/element[@controlid='21']/text[@controlid='1001']' within 1m.
+   --- End of inner exception stack trace ---
+   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.<>c__DisplayClass75_0`1.<Find>b__0()
+   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)
+   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   at Automation_JobLoading.JobLoading_RepositoryFolders.LoadJobFileAppFolder.get_JobPathLane1() in S:\Automation\Automation_JobLoading\Automation_JobLoading\JobLoading_Repository.cs:line 1697
+   at Automation_JobLoading.MainForm.SPIGUI_JobLoading(StreamWriter sw) in S:\Automation\Automation_JobLoading\Automation_JobLoading\MainForm.cs:line 300
+[2020-11-05 오후 4:54:03] SWB-E43 R03A TOP _201810-024 L1_Job Loading Fail
+[2020-11-05 오후 4:59:41] Program Load
+[2020-11-05 오후 4:59:41] Job List Display Completed!
+[2020-11-05 오후 4:59:48] Program Load
+[2020-11-05 오후 4:59:48] Job List Display Completed!
+[2020-11-05 오후 5:00:18] --Job File Loading Start--
+[2020-11-05 오후 5:00:24] 첫번째대기
+[2020-11-05 오후 5:00:31] 두번째대기
+[2020-11-05 오후 5:01:06] Save Error Image Completed!
+[2020-11-05 오후 5:01:10] Save Error Image Completed!
+[2020-11-05 오후 5:01:15] Save Error Image Completed!
+[2020-11-05 오후 5:01:18] quantity창 종료버튼 클릭
+[2020-11-05 오후 5:01:40] 세번째대기
+[2020-11-05 오후 5:01:50] 대기끝
+[2020-11-05 오후 5:01:52] SWB-E43 R03A TOP _201810-024 L1_Job Loading Succcess
+[2020-11-05 오후 5:02:17] --Job File Loading Start--
+[2020-11-05 오후 5:02:23] 첫번째대기
+[2020-11-05 오후 5:02:31] 두번째대기
+[2020-11-05 오후 5:03:02] 세번째대기
+[2020-11-05 오후 5:03:12] 대기끝
+[2020-11-05 오후 5:03:17] Save Error Image Completed!
+[2020-11-05 오후 5:03:21] Save Error Image Completed!
+[2020-11-05 오후 5:03:26] Save Error Image Completed!
+[2020-11-05 오후 5:03:29] quantity창 종료버튼 클릭
+[2020-11-05 오후 5:03:40] SWB-E43 R03A TOP _201810-024 L2_Test_Job Loading Succcess
+[2020-11-05 오후 5:04:00] --Job File Loading Start--
+[2020-11-05 오후 5:04:08] 첫번째대기
+[2020-11-05 오후 5:04:11] 두번째대기
+[2020-11-05 오후 5:04:41] 세번째대기
+[2020-11-05 오후 5:04:51] 대기끝
+[2020-11-05 오후 5:05:36] TW61-D725-001_Job Loading Succcess
+[2020-11-05 오후 5:05:36] quantity창 종료버튼 클릭
+[2020-11-05 오후 5:06:04] --Job File Loading Start--
+[2020-11-05 오후 5:06:29] 첫번째대기
+[2020-11-05 오후 5:06:36] 두번째대기
+[2020-11-05 오후 5:07:08] quantity창 종료버튼 클릭
+[2020-11-05 오후 5:07:13] 세번째대기
+[2020-11-05 오후 5:07:23] 대기끝
+[2020-11-05 오후 5:07:25] TW61-D725-001_2 pad only_20191205_Job Loading Succcess
+[2020-11-05 오후 5:07:47] --Job File Loading Start--
+[2020-11-05 오후 5:07:52] 첫번째대기
+[2020-11-05 오후 5:07:57] 두번째대기
+[2020-11-05 오후 5:08:15] quantity창 종료버튼 클릭
+[2020-11-05 오후 5:08:27] 세번째대기
+[2020-11-05 오후 5:08:37] 대기끝
+[2020-11-05 오후 5:08:39] TW61-D725-001_20PERCENT_Job Loading Succcess
+[2020-11-05 오후 5:09:01] --Job File Loading Start--
+[2020-11-05 오후 5:09:08] 첫번째대기
+[2020-11-05 오후 5:09:11] 두번째대기
+[2020-11-05 오후 5:09:41] 세번째대기
+[2020-11-05 오후 5:09:51] 대기끝
+[2020-11-05 오후 5:09:59] VIPER 2L #10-J63545_Job Loading Succcess
+[2020-11-05 오후 5:10:00] quantity창 종료버튼 클릭
+[2020-11-05 오후 5:11:08] Ranorex.ElementNotFoundException: Failed to find item 'JobLoading_Repository.SPIGUI.LoadJobFile.JobPathLane2'. ---> Ranorex.ElementNotFoundException: No element found for path '/form[@title='Load Dual Lane JOB file']/?/?/element[@controlid='20']/text[@controlid='1001']' within 1m.
+   --- End of inner exception stack trace ---
+   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.<>c__DisplayClass75_0`1.<Find>b__0()
+   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)
+   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   at Automation_JobLoading.JobLoading_RepositoryFolders.LoadJobFileAppFolder.get_JobPathLane2() in S:\Automation\Automation_JobLoading\Automation_JobLoading\JobLoading_Repository.cs:line 1721
+   at Automation_JobLoading.MainForm.SPIGUI_JobLoading(StreamWriter sw) in S:\Automation\Automation_JobLoading\Automation_JobLoading\MainForm.cs:line 285
+[2020-11-05 오후 5:11:08] VIPER 2L #10-J63545_Job Loading Fail
+[2020-11-05 오후 5:12:37] Program Load
+[2020-11-05 오후 5:12:37] Job List Display Completed!
+[2020-11-05 오후 5:18:03] Program Load
+[2020-11-05 오후 5:18:03] Job List Display Completed!
+[2020-11-05 오후 5:18:43] Program Load
+[2020-11-05 오후 5:18:43] Job List Display Completed!
+[2020-11-05 오후 5:19:15] --Job File Loading Start--
+[2020-11-05 오후 5:19:22] 첫번째대기
+[2020-11-05 오후 5:19:30] 두번째대기
+[2020-11-05 오후 5:20:05] Save Error Image Completed!
+[2020-11-05 오후 5:43:43] Program Load
+[2020-11-05 오후 5:43:43] Job List Display Completed!
+[2020-11-05 오후 5:44:07] --Job File Loading Start--
+[2020-11-05 오후 5:44:14] _Job Loading Succcess
+[2020-11-05 오후 5:44:57] Save Error Image Completed!
+[2020-11-05 오후 5:45:40] --Job File Loading Start--
+[2020-11-05 오후 5:45:43] _Job Loading Succcess
+[2020-11-05 오후 5:47:56] Program Load
+[2020-11-05 오후 5:47:56] Job List Display Completed!
+[2020-11-05 오후 5:48:39] --Job File Loading Start--
+[2020-11-05 오후 5:50:08] Save Error Image Completed!
+[2020-11-05 오후 5:59:10] Program Load
+[2020-11-05 오후 5:59:10] Job List Display Completed!
+[2020-11-05 오후 5:59:57] --Job File Loading Start--
+[2020-11-05 오후 6:00:43] Save Error Image Completed!
+[2020-11-05 오후 6:00:48] Save Error Image Completed!
+[2020-11-05 오후 6:00:53] Save Error Image Completed!
+[2020-11-05 오후 6:00:53] _Job Loading Succcess
+[2020-11-05 오후 6:00:54] quantity창 종료버튼 클릭
+[2020-11-05 오후 6:01:28] --Job File Loading Start--
+[2020-11-05 오후 6:02:17] Save Error Image Completed!
+[2020-11-05 오후 6:02:22] Save Error Image Completed!
+[2020-11-05 오후 6:02:27] Save Error Image Completed!
+[2020-11-05 오후 6:02:27] _Job Loading Succcess
+[2020-11-05 오후 6:02:28] quantity창 종료버튼 클릭

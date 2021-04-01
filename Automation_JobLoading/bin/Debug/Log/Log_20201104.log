@@ -1,0 +1,198 @@
+[2020-11-04 오후 12:49:11] Program Load
+[2020-11-04 오후 12:49:11] Job List Display Completed!
+[2020-11-04 오후 12:53:25] Program Load
+[2020-11-04 오후 12:53:25] Job List Display Completed!
+[2020-11-04 오후 1:09:38] Program Load
+[2020-11-04 오후 1:09:38] Job List Display Completed!
+[2020-11-04 오후 1:11:22] Program Load
+[2020-11-04 오후 1:11:22] Job List Display Completed!
+[2020-11-04 오후 1:18:33] Program Load
+[2020-11-04 오후 1:18:33] Job List Display Completed!
+[2020-11-04 오후 1:44:38] Program Load
+[2020-11-04 오후 1:44:38] Job List Display Completed!
+[2020-11-04 오후 1:45:16] --Job File Loading Start--
+[2020-11-04 오후 1:45:17] 첫번째대기
+[2020-11-04 오후 1:45:23] 두번째대기
+[2020-11-04 오후 1:45:53] 세번째대기
+[2020-11-04 오후 1:45:56] 대기끝
+[2020-11-04 오후 2:07:12] Program Load
+[2020-11-04 오후 2:07:12] Job List Display Completed!
+[2020-11-04 오후 2:07:43] --Job File Loading Start--
+[2020-11-04 오후 2:07:50] 첫번째대기
+[2020-11-04 오후 2:07:53] 두번째대기
+[2020-11-04 오후 2:18:29] Program Load
+[2020-11-04 오후 2:18:29] Job List Display Completed!
+[2020-11-04 오후 2:18:49] --Job File Loading Start--
+[2020-11-04 오후 2:19:02] 첫번째대기
+[2020-11-04 오후 2:19:05] 두번째대기
+[2020-11-04 오후 2:19:39] Save Error Image Completed!
+[2020-11-04 오후 2:19:56] 세번째대기
+[2020-11-04 오후 2:19:59] 대기끝
+[2020-11-04 오후 2:20:02] OJP1155-B-A0_Job Loading Succcess
+[2020-11-04 오후 2:20:31] --Job File Loading Start--
+[2020-11-04 오후 2:20:36] 첫번째대기
+[2020-11-04 오후 2:20:41] 두번째대기
+[2020-11-04 오후 2:22:05] Ranorex.ApplicationNotRespondingException: Exception of type 'Ranorex.ApplicationNotRespondingException' was thrown.
+   at Ranorex.Core.FunctionExecuteWithTimeout.TryExecute[T](Func`1 func, TimeSpan timeout)
+   at Ranorex.Core.FunctionExecuteWithTimeout.WithTimeout[T](Func`1 func, Nullable`1 timeout)
+   at Ranorex.Plugin.WpfRootRule.AddWpfNative(GlueRuleExecutionState state)
+   at Ranorex.Plugin.WpfRootRule.Execute(GlueRuleExecutionState state)
+   at Ranorex.Core.ElementEngine.ApplyGlueRules(Element element, GlueRuleExecutionStateImpl state, Boolean includeRemotes)
+   at Ranorex.Core.ElementEngine.ApplyReplaceGlueRulesOnSingleRecentlyInsertedElement(Element parentElement, GlueRuleExecutionStateImpl state, GlueRuleExecutionStateImpl replaceState, Element recentlyInsertedElement)
+   at Ranorex.Core.ElementEngine.ApplyReplaceGlueRulesOnRecentlyInserted(Element element, GlueRuleExecutionStateImpl state)
+   at Ranorex.Core.ElementEngine.ApplyGlueRules(Element element, GlueRuleExecutionStateImpl state, Boolean includeRemotes)
+   at Ranorex.Core.ElementEngine.ApplyGlueRules(Element element, Boolean includeRemotes)
+   at Ranorex.Core.Element.GetChildren(CacheSession session)
+   at Ranorex.Core.Element.get_Children()
+   at Ranorex.Core.RxPath.collectAxis(LocationStep step, Axis optimizedAxis, Element self, IList`1 elements, Boolean quitOnFirstGoodNode)
+   at Ranorex.Core.RxPath.ApplyInternal(RxPath path, Element startElement, Duration timeout, Boolean findSingle, CacheSession& usedCacheSession)
+   at Ranorex.Core.RxPath.Apply(Element startElement, Duration timeout, Boolean findSingle, CacheSession& usedCacheSession)
+   at Ranorex.Core.Element.TryFindInternal(RxPath path, Duration timeout, Boolean findSingle, IList`1& foundElements, CacheSession& usedCacheSession)
+   at Ranorex.Core.Element.TryFindInternal(RxPath path, Duration timeout, Boolean findSingle, IList`1& foundElements)
+   at Ranorex.Core.Repository.RepoItemInfo.WaitForNotExists(Duration waitTimeout)
+   at Automation_JobLoading.MainForm.SPIGUI_JobLoading(StreamWriter sw) in S:\Automation\Automation_JobLoading\Automation_JobLoading\MainForm.cs:line 276
+[2020-11-04 오후 2:36:05] Program Load
+[2020-11-04 오후 2:36:05] Job List Display Completed!
+[2020-11-04 오후 2:36:25] --Job File Loading Start--
+[2020-11-04 오후 2:36:32] 첫번째대기
+[2020-11-04 오후 2:36:36] 두번째대기
+[2020-11-04 오후 2:37:06] 세번째대기
+[2020-11-04 오후 2:37:09] 대기끝
+[2020-11-04 오후 3:14:42] Program Load
+[2020-11-04 오후 3:14:42] Job List Display Completed!
+[2020-11-04 오후 3:15:29] Program Load
+[2020-11-04 오후 3:15:29] Job List Display Completed!
+[2020-11-04 오후 3:16:18] Program Load
+[2020-11-04 오후 3:16:18] Job List Display Completed!
+[2020-11-04 오후 3:16:33] Save Error Image Completed!
+[2020-11-04 오후 3:21:20] Program Load
+[2020-11-04 오후 3:21:20] Job List Display Completed!
+[2020-11-04 오후 3:21:45] --Job File Loading Start--
+[2020-11-04 오후 3:21:55] 첫번째대기
+[2020-11-04 오후 3:21:58] 두번째대기
+[2020-11-04 오후 3:22:09] Save Error Image Completed!
+[2020-11-04 오후 3:22:30] 세번째대기
+[2020-11-04 오후 3:22:33] 대기끝
+[2020-11-04 오후 3:22:42] OJP1155-B-A0_Job Loading Succcess
+[2020-11-04 오후 3:23:01] --Job File Loading Start--
+[2020-11-04 오후 3:23:06] 첫번째대기
+[2020-11-04 오후 3:23:13] 두번째대기
+[2020-11-04 오후 3:25:08] 세번째대기
+[2020-11-04 오후 3:25:11] 대기끝
+[2020-11-04 오후 4:25:57] Program Load
+[2020-11-04 오후 4:25:57] Job List Display Completed!
+[2020-11-04 오후 4:42:39] Program Load
+[2020-11-04 오후 4:42:39] Job List Display Completed!
+[2020-11-04 오후 4:43:17] --Job File Loading Start--
+[2020-11-04 오후 4:43:33] 첫번째대기
+[2020-11-04 오후 4:43:39] 두번째대기
+[2020-11-04 오후 4:44:13] 세번째대기
+[2020-11-04 오후 4:44:16] 대기끝
+[2020-11-04 오후 4:44:41] OJP1155-B-_Job Loading Succcess
+[2020-11-04 오후 4:45:02] --Job File Loading Start--
+[2020-11-04 오후 4:45:07] 첫번째대기
+[2020-11-04 오후 4:45:13] 두번째대기
+[2020-11-04 오후 4:45:44] 세번째대기
+[2020-11-04 오후 4:45:47] 대기끝
+[2020-11-04 오후 4:45:48] Save Error Image Completed!
+[2020-11-04 오후 4:47:32] Save Error Image Completed!
+[2020-11-04 오후 4:47:51] Program Load
+[2020-11-04 오후 4:47:51] Job List Display Completed!
+[2020-11-04 오후 4:48:08] --Job File Loading Start--
+[2020-11-04 오후 4:48:15] 첫번째대기
+[2020-11-04 오후 4:48:18] 두번째대기
+[2020-11-04 오후 4:48:53] 세번째대기
+[2020-11-04 오후 4:48:56] 대기끝
+[2020-11-04 오후 4:49:44] OJP1155_Job Loading Succcess
+[2020-11-04 오후 4:50:05] --Job File Loading Start--
+[2020-11-04 오후 4:50:11] 첫번째대기
+[2020-11-04 오후 4:50:17] 두번째대기
+[2020-11-04 오후 4:50:52] Save Error Image Completed!
+[2020-11-04 오후 4:50:56] Save Error Image Completed!
+[2020-11-04 오후 4:51:01] Save Error Image Completed!
+[2020-11-04 오후 5:00:47] Ranorex.RanorexException: Failed to wait for item to not exist. Item 'JobLoading_Repository.SPIGUI.SPIGUI.LoadedJob' still exists after the specified timeout of 10m.
+   at Ranorex.Core.Repository.RepoItemInfo.WaitForNotExists(Duration waitTimeout)
+   at Automation_JobLoading.MainForm.SPIGUI_JobLoading(StreamWriter sw) in S:\Automation\Automation_JobLoading\Automation_JobLoading\MainForm.cs:line 277
+[2020-11-04 오후 5:09:09] Program Load
+[2020-11-04 오후 5:09:09] Job List Display Completed!
+[2020-11-04 오후 5:09:19] Program Load
+[2020-11-04 오후 5:09:19] Job List Display Completed!
+[2020-11-04 오후 5:09:45] --Job File Loading Start--
+[2020-11-04 오후 5:09:50] 첫번째대기
+[2020-11-04 오후 5:09:58] 두번째대기
+[2020-11-04 오후 5:10:28] 세번째대기
+[2020-11-04 오후 5:10:31] 대기끝
+[2020-11-04 오후 5:10:33] OJP1155-B-A0_Job Loading Succcess
+[2020-11-04 오후 5:10:55] --Job File Loading Start--
+[2020-11-04 오후 5:11:00] 첫번째대기
+[2020-11-04 오후 5:11:06] 두번째대기
+[2020-11-04 오후 5:11:41] Save Error Image Completed!
+[2020-11-04 오후 5:11:45] Save Error Image Completed!
+[2020-11-04 오후 5:11:50] Save Error Image Completed!
+[2020-11-04 오후 5:11:58] 세번째대기
+[2020-11-04 오후 5:12:01] 대기끝
+[2020-11-04 오후 5:12:03] SWB-E43 R03A TOP _201810-02_Job Loading Succcess
+[2020-11-04 오후 5:12:18] --Job File Loading Start--
+[2020-11-04 오후 5:12:26] 첫번째대기
+[2020-11-04 오후 5:12:30] 두번째대기
+[2020-11-04 오후 5:13:01] 세번째대기
+[2020-11-04 오후 5:13:04] 대기끝
+[2020-11-04 오후 5:13:17] TW61-D725-001_Job Loading Succcess
+[2020-11-04 오후 5:13:37] --Job File Loading Start--
+[2020-11-04 오후 5:13:44] 첫번째대기
+[2020-11-04 오후 5:13:48] 두번째대기
+[2020-11-04 오후 5:14:18] 세번째대기
+[2020-11-04 오후 5:14:21] 대기끝
+[2020-11-04 오후 5:14:22] TW61-D725-001_2 pad only_Job Loading Succcess
+[2020-11-04 오후 5:14:40] --Job File Loading Start--
+[2020-11-04 오후 5:14:44] 첫번째대기
+[2020-11-04 오후 5:14:48] 두번째대기
+[2020-11-04 오후 5:15:23] 세번째대기
+[2020-11-04 오후 5:15:26] 대기끝
+[2020-11-04 오후 5:20:30] Program Load
+[2020-11-04 오후 5:20:30] Job List Display Completed!
+[2020-11-04 오후 5:48:43] Program Load
+[2020-11-04 오후 5:48:43] Job List Display Completed!
+[2020-11-04 오후 5:49:07] Program Load
+[2020-11-04 오후 5:49:07] Job List Display Completed!
+[2020-11-04 오후 5:50:32] S:\SPI Job\SPI_Unclassified Data\OJP1155-B-A0.mdb_Job Load in C-Editor Completed!
+[2020-11-04 오후 5:55:45] Program Load
+[2020-11-04 오후 5:55:45] Job List Display Completed!
+[2020-11-04 오후 5:57:11] S:\SPI Job\SPI_Unclassified Data\OJP1155-B-A0.mdb_Job Load in C-Editor Completed!
+[2020-11-04 오후 5:57:12] System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.set_Item(Int32 index, Object value)
+   at Automation_JobLoading.MainForm.CEditor_JobConvert(StreamWriter sw) in S:\Automation\Automation_JobLoading\Automation_JobLoading\MainForm.cs:line 229
+[2020-11-04 오후 6:00:03] Program Load
+[2020-11-04 오후 6:00:03] Job List Display Completed!
+[2020-11-04 오후 6:01:27] S:\SPI Job\SPI_Unclassified Data\OJP1155-B-A0.mdb_Job Load in C-Editor Completed!
+[2020-11-04 오후 6:01:28] System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.set_Item(Int32 index, Object value)
+   at Automation_JobLoading.MainForm.CEditor_JobConvert(StreamWriter sw) in S:\Automation\Automation_JobLoading\Automation_JobLoading\MainForm.cs:line 229
+[2020-11-04 오후 6:02:22] S:\SPI Job\SPI_Unclassified Data\SWB-E43 R03A TOP _201810-024 L2_Test.mdb_Job Load in C-Editor Completed!
+[2020-11-04 오후 6:02:29] Program Load
+[2020-11-04 오후 6:02:29] Job List Display Completed!
+[2020-11-04 오후 6:03:58] S:\SPI Job\SPI_Unclassified Data\OJP1155-B-A0.mdb_Job Load in C-Editor Completed!
+[2020-11-04 오후 6:06:19] Program Load
+[2020-11-04 오후 6:06:19] Job List Display Completed!
+[2020-11-04 오후 6:07:43] S:\SPI Job\SPI_Unclassified Data\OJP1155-B-A0.mdb_Job Load in C-Editor Completed!
+[2020-11-04 오후 6:07:52] 디버그 대상
+[2020-11-04 오후 6:12:39] Program Load
+[2020-11-04 오후 6:12:39] Job List Display Completed!
+[2020-11-04 오후 6:14:03] S:\SPI Job\SPI_Unclassified Data\OJP1155-B-A0.mdb_Job Load in C-Editor Completed!
+[2020-11-04 오후 6:18:53] Program Load
+[2020-11-04 오후 6:18:53] Job List Display Completed!
+[2020-11-04 오후 6:20:17] S:\SPI Job\SPI_Unclassified Data\OJP1155-B-A0.mdb_Job Load in C-Editor Completed!
+[2020-11-04 오후 6:26:11] Program Load
+[2020-11-04 오후 6:26:11] Job List Display Completed!
+[2020-11-04 오후 6:27:37] S:\SPI Job\SPI_Unclassified Data\OJP1155-B-A0.mdb_Job Load in C-Editor Completed!
+[2020-11-04 오후 6:33:02] Program Load
+[2020-11-04 오후 6:33:02] Job List Display Completed!
+[2020-11-04 오후 6:34:26] S:\SPI Job\SPI_Unclassified Data\OJP1155-B-A0.mdb_Job Load in C-Editor Completed!
+[2020-11-04 오후 6:43:15] Program Load
+[2020-11-04 오후 6:43:15] Job List Display Completed!
+[2020-11-04 오후 6:44:40] S:\SPI Job\SPI_Unclassified Data\OJP1155-B-A0.mdb_Job Load in C-Editor Completed!
+[2020-11-04 오후 6:50:58] Program Load
+[2020-11-04 오후 6:50:58] Job List Display Completed!
+[2020-11-04 오후 6:52:23] S:\SPI Job\SPI_Unclassified Data\OJP1155-B-A0.mdb_Job Load in C-Editor Completed!

@@ -1,0 +1,22 @@
+[2021-02-01 오후 2:10:02] ---Automation Program Load---
+[2021-02-01 오후 2:10:39] Job List Display Completed!
+[2021-02-01 오후 2:10:45] ---SPI Job Loading Automation Run Start!!!!!---
+[2021-02-01 오후 2:10:45] ---SPI Job Convert Start!!!!!---
+[2021-02-01 오후 2:11:18] ---D:\SPI Job_Original\SPI Job\Amkor\0859586GBA_2.mdb_Job Load in C-Editor Completed!---
+[2021-02-01 오후 2:13:56] ---Automation Program Load---
+[2021-02-01 오후 2:33:39] ---Automation Program Load---
+[2021-02-01 오후 2:35:39] Job List Display Completed!
+[2021-02-01 오후 2:36:34] Job List Display Completed!
+[2021-02-01 오후 2:36:36] ---SPI Job Loading Automation Run Start!!!!!---
+[2021-02-01 오후 2:36:36] ---SPI Job Convert Start!!!!!---
+[2021-02-01 오후 2:37:09] ---D:\SPI Job_Original - 복사본\SPI Job\Amkor\0859586GBA_2.mdb_Job Load in C-Editor Completed!---
+[2021-02-01 오후 2:38:09] ---D:\SPI Job_Original - 복사본\SPI Job\huawei job\1T11SBCB-C-B.mdb_Job Load in C-Editor Completed!---
+[2021-02-01 오후 2:38:29] ---D:\SPI Job_Original - 복사본\SPI Job\SPI_bosch_Suzhou\3332A10012_R2.mdb_Job Load in C-Editor Completed!---
+[2021-02-01 오후 2:39:30] Ranorex.ElementNotFoundException: Failed to find item 'JobLoading_Repository.ComponentID.ButtonYes'. ---> Ranorex.ElementNotFoundException: No element found for path '/form[@processname='CEditor' and @class='#32770']/button[@text='예(&Y)']' within 1m.
+   --- 내부 예외 스택 추적의 끝 ---
+   위치: Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   위치: Ranorex.Core.Repository.RepoItemInfo.<>c__DisplayClass75_0`1.<Find>b__0()
+   위치: Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)
+   위치: Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   위치: Automation_JobLoading.JobLoading_RepositoryFolders.ComponentIDAppFolder.get_ButtonYes()
+   위치: Automation_JobLoading.MainForm.CEditor_JobConvert(StreamWriter sw)

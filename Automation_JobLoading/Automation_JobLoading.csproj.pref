@@ -1,0 +1,26 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="Class\Setting.cs" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="Class\Setting.cs" />
+    <Element value="Class\Inspection.cs" />
+    <Element value="JobLoading_Repository.rxrep" />
+    <Element value="Module\NormalJob.rxrec" />
+    <Element value="Module\NormalJob.UserCode.cs" />
+    <Element value="Class\Common.cs" />
+    <Element value="Module\VisionErrorWatch.rxrec" />
+    <Element value="Module\test.rxrec" />
+    <Element value="Module\test.cs" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <fileNames value="" />
+      <runOnBuild value="False" />
+    </Properties>
+    <Array name="recentusercodeselections">
+      <Element value="Automation_JobLoading.Module.NormalJob.VAsetting()" />
+    </Array>
+  </Properties>
+</Properties>

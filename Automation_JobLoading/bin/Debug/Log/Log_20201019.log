@@ -1,0 +1,69 @@
+[2020-10-19 오후 5:44:29] Program Load
+[2020-10-19 오후 5:44:29] Job List Display Completed!
+[2020-10-19 오후 5:45:15] S:\SPI Job\SPI_Unclassified Data\0851305SD0A_JEJU4.mdb_Job Load in C-Editor Completed!
+[2020-10-19 오후 5:45:37] S:\SPI Job\SPI_Unclassified Data\309000120764B3 MOON-MLB.mdb_Job Load in C-Editor Completed!
+[2020-10-19 오후 5:46:03] S:\SPI Job\SPI_Unclassified Data\309000120766T5-7-MOON-MLB.mdb_Job Load in C-Editor Completed!
+[2020-10-19 오후 5:46:28] S:\SPI Job\SPI_Unclassified Data\309000319296R1T0  Greedo-R-FLEX - 짼창쩍쨘횏짰 - 쨌횜쩔챵짼창횎횚.mdb_Job Load in C-Editor Completed!
+[2020-10-19 오후 5:46:51] S:\SPI Job\SPI_Unclassified Data\309000319296R1T0  Greedo-R-FLEX - 짼창쩍쨘횏짰.mdb_Job Load in C-Editor Completed!
+[2020-10-19 오후 5:47:13] S:\SPI Job\SPI_Unclassified Data\309000500379B7-Jupiter-R.mdb_Job Load in C-Editor Completed!
+[2020-10-19 오후 5:47:35] S:\SPI Job\SPI_Unclassified Data\309000500379T10 Jupiter-R.mdb_Job Load in C-Editor Completed!
+[2020-10-19 오후 5:47:57] S:\SPI Job\SPI_Unclassified Data\309000500379T11 Jupiter-Right.mdb_Job Load in C-Editor Completed!
+[2020-10-19 오후 5:48:18] S:\SPI Job\SPI_Unclassified Data\742223GB0B_.mdb_Job Load in C-Editor Completed!
+[2020-10-19 오후 5:49:28] S:\SPI Job\SPI_Unclassified Data\780514GB0A.mdb_Job Load in C-Editor Completed!
+[2020-10-19 오후 5:50:15] S:\SPI Job\SPI_Unclassified Data\800689GB0A_F+_final_segmentation.mdb_Job Load in C-Editor Completed!
+[2020-10-19 오후 5:51:08] S:\SPI Job\SPI_Unclassified Data\808508SD0A_JEDI_F.mdb_Job Load in C-Editor Completed!
+[2020-10-19 오후 5:52:32] S:\SPI Job\SPI_Unclassified Data\ACFM-W223-AK_SL.mdb_Job Load in C-Editor Completed!
+[2020-10-19 오후 5:53:59] S:\SPI Job\SPI_Unclassified Data\AFEM-8086-A.mdb_Job Load in C-Editor Completed!
+[2020-10-19 오후 5:58:19] S:\SPI Job\SPI_Unclassified Data\BG_107_R_140.mdb_Job Load in C-Editor Completed!
+[2020-10-19 오후 6:05:09] Ranorex.RanorexException: WaitForAttributeEqual failed. The attribute 'Value' did not equal the specified value '29700' before the timeout of 5m. The last value found was '0'. Associated repository item: 'JobLoading_Repository.EditComponentID.ProgressBar20WndClass'
+   at Ranorex.Core.Repository.RepoItemInfo.WaitForAttributeInternal(Duration waitTimeout, String name, Object value, WaitForAction action)
+   at Ranorex.Core.Repository.RepoItemInfo.WaitForAttributeEqual(Duration waitTimeout, String name, Object value)
+   at Automation_JobLoading.MainForm.CEditor_JobConvert(StreamWriter sw) in S:\Automation\Automation_JobLoading\Automation_JobLoading\MainForm.cs:line 139
+[2020-10-19 오후 6:11:59] Program Load
+[2020-10-19 오후 6:11:59] Job List Display Completed!
+[2020-10-19 오후 6:17:13] S:\SPI Job\SPI_Unclassified Data\0851305SD0A_JEJU4.mdb_Job Load in C-Editor Completed!
+[2020-10-19 오후 6:17:35] S:\SPI Job\SPI_Unclassified Data\309000120764B3 MOON-MLB.mdb_Job Load in C-Editor Completed!
+[2020-10-19 오후 6:18:01] S:\SPI Job\SPI_Unclassified Data\309000120766T5-7-MOON-MLB.mdb_Job Load in C-Editor Completed!
+[2020-10-19 오후 6:18:26] S:\SPI Job\SPI_Unclassified Data\309000319296R1T0  Greedo-R-FLEX - 짼창쩍쨘횏짰 - 쨌횜쩔챵짼창횎횚.mdb_Job Load in C-Editor Completed!
+[2020-10-19 오후 6:18:49] S:\SPI Job\SPI_Unclassified Data\309000319296R1T0  Greedo-R-FLEX - 짼창쩍쨘횏짰.mdb_Job Load in C-Editor Completed!
+[2020-10-19 오후 6:19:11] S:\SPI Job\SPI_Unclassified Data\309000500379B7-Jupiter-R.mdb_Job Load in C-Editor Completed!
+[2020-10-19 오후 6:19:33] S:\SPI Job\SPI_Unclassified Data\309000500379T10 Jupiter-R.mdb_Job Load in C-Editor Completed!
+[2020-10-19 오후 6:19:56] S:\SPI Job\SPI_Unclassified Data\309000500379T11 Jupiter-Right.mdb_Job Load in C-Editor Completed!
+[2020-10-19 오후 6:20:17] S:\SPI Job\SPI_Unclassified Data\742223GB0B_.mdb_Job Load in C-Editor Completed!
+[2020-10-19 오후 6:21:29] S:\SPI Job\SPI_Unclassified Data\780514GB0A.mdb_Job Load in C-Editor Completed!
+[2020-10-19 오후 6:22:17] S:\SPI Job\SPI_Unclassified Data\800689GB0A_F+_final_segmentation.mdb_Job Load in C-Editor Completed!
+[2020-10-19 오후 6:23:10] S:\SPI Job\SPI_Unclassified Data\808508SD0A_JEDI_F.mdb_Job Load in C-Editor Completed!
+[2020-10-19 오후 6:24:37] S:\SPI Job\SPI_Unclassified Data\ACFM-W223-AK_SL.mdb_Job Load in C-Editor Completed!
+[2020-10-19 오후 6:26:06] S:\SPI Job\SPI_Unclassified Data\AFEM-8086-A.mdb_Job Load in C-Editor Completed!
+[2020-10-19 오후 6:30:26] S:\SPI Job\SPI_Unclassified Data\BG_107_R_140.mdb_Job Load in C-Editor Completed!
+[2020-10-19 오후 6:43:59] S:\SPI Job\SPI_Unclassified Data\BG_107_R_140_original.mdb_Job Load in C-Editor Completed!
+[2020-10-19 오후 6:48:17] S:\SPI Job\SPI_Unclassified Data\BSM-J260F$8DS_BM_QE1808OFA014-018_REV0.5.mdb_Job Load in C-Editor Completed!
+[2020-10-19 오후 6:48:42] S:\SPI Job\SPI_Unclassified Data\BSM-J260F$8DS_TM_QE1808OFA077-081_REV0.5.mdb_Job Load in C-Editor Completed!
+[2020-10-19 오후 6:49:09] S:\SPI Job\SPI_Unclassified Data\BSM-J410F$16DS_BM_QH1812OFA237-238_REV0.2.mdb_Job Load in C-Editor Completed!
+[2020-10-19 오후 6:49:32] S:\SPI Job\SPI_Unclassified Data\BSM-J410F$16DS_TM_QH1812OFA257-260_REV0.2.mdb_Job Load in C-Editor Completed!
+[2020-10-19 오후 6:49:53] S:\SPI Job\SPI_Unclassified Data\D241_RS.mdb_Job Load in C-Editor Completed!
+[2020-10-19 오후 6:50:14] S:\SPI Job\SPI_Unclassified Data\OFF1652-F04305SD19090018.mdb_Job Load in C-Editor Completed!
+[2020-10-19 오후 6:50:35] S:\SPI Job\SPI_Unclassified Data\OJP1155-B-A0.mdb_Job Load in C-Editor Completed!
+[2020-10-19 오후 6:51:10] S:\SPI Job\SPI_Unclassified Data\SWB-E43 R03A TOP _201810-024 L1.mdb_Job Load in C-Editor Completed!
+[2020-10-19 오후 6:52:06] S:\SPI Job\SPI_Unclassified Data\SWB-E43 R03A TOP _201810-024 L2.mdb_Job Load in C-Editor Completed!
+[2020-10-19 오후 6:53:00] S:\SPI Job\SPI_Unclassified Data\SWB-E43 R03A TOP _201810-024 L2_Test.mdb_Job Load in C-Editor Completed!
+[2020-10-19 오후 6:53:40] S:\SPI Job\SPI_Unclassified Data\TW61-D725-001.mdb_Job Load in C-Editor Completed!
+[2020-10-19 오후 6:54:03] S:\SPI Job\SPI_Unclassified Data\TW61-D725-001_2 pad only_20191205.mdb_Job Load in C-Editor Completed!
+[2020-10-19 오후 6:54:31] S:\SPI Job\SPI_Unclassified Data\TW61-D725-001_20PERCENT.mdb_Job Load in C-Editor Completed!
+[2020-10-19 오후 6:54:53] S:\SPI Job\SPI_Unclassified Data\VIPER 2L #10-J63545.mdb_Job Load in C-Editor Completed!
+[2020-10-19 오후 6:55:15] S:\SPI Job\SPI_Unclassified Data\VIPER 2XL #23-J64132_1.mdb_Job Load in C-Editor Completed!
+[2020-10-19 오후 6:55:37] S:\SPI Job\SPI_Unclassified Data\XK06560_another_120um 90_v1.mdb_Job Load in C-Editor Completed!
+[2020-10-19 오후 6:56:42] Ranorex.RanorexException: WaitForAttributeContains failed. The attribute 'Text' did not contain the specified value 'KY-3030' before the timeout of 1m. The last value found was 'KSmart connection disconnected'. Associated repository item: 'JobLoading_Repository.SPIGUI.BASEPopup.BASEPopupTitle'
+   at Ranorex.Core.Repository.RepoItemInfo.WaitForAttributeInternal(Duration waitTimeout, String name, Object value, WaitForAction action)
+   at Ranorex.Core.Repository.RepoItemInfo.WaitForAttributeContains(Duration waitTimeout, String name, Object value)
+   at Automation_JobLoading.Class.Common.SPIGUION() in S:\Automation\Automation_JobLoading\Automation_JobLoading\Class\Common.cs:line 47
+[2020-10-19 오후 6:57:42] Ranorex.ElementNotFoundException: Failed to find item 'JobLoading_Repository.SPIGUI.LoadJobFile.NormalLane2'. ---> Ranorex.ElementNotFoundException: No element found for path '/form[@title='Load Dual Lane JOB file']/?/?/element[@controlid='18']/radiobutton[@accessiblename='Normal']' within 1m.
+   --- End of inner exception stack trace ---
+   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.<>c__DisplayClass75_0`1.<Find>b__0()
+   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)
+   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   at Automation_JobLoading.JobLoading_RepositoryFolders.LoadJobFileAppFolder.get_NormalLane2() in S:\Automation\Automation_JobLoading\Automation_JobLoading\JobLoading_Repository.cs:line 1767
+   at Automation_JobLoading.MainForm.SPIGUI_JobLoading(StreamWriter sw) in S:\Automation\Automation_JobLoading\Automation_JobLoading\MainForm.cs:line 202

@@ -1,0 +1,15 @@
+[2020-11-06 오후 6:18:29] Program Load
+[2020-11-06 오후 6:18:29] Job List Display Completed!
+[2020-11-06 오후 6:20:04] S:\SPI Job\Amkor\0859586GBA_2.mdb_Job Load in C-Editor Completed!
+[2020-11-07 오전 8:58:55] S:\SPI Job\huawei job\5.mdb_Job Load in C-Editor Completed!
+[2020-11-08 오전 12:09:07] Ranorex.ElementNotFoundException: Failed to find item 'JobLoading_Repository.ComponentID.TextBox'. ---> Ranorex.ElementNotFoundException: No element found for path '/form[@processname='CEditor' and @class='#32770']/?/?/text[@controlid='1148']' within 1m.
+   --- End of inner exception stack trace ---
+   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.<>c__DisplayClass75_0`1.<Find>b__0()
+   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)
+   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Automation_JobLoading.JobLoading_RepositoryFolders.ComponentIDAppFolder.get_TextBox()
+   at Automation_JobLoading.MainForm.CEditor_JobConvert(StreamWriter sw)
+[2020-11-08 오전 12:10:23] S:\SPI Job\SPI_bosch_Suzhou\3332A10048_R2.mdb_Job Load in C-Editor Completed!
+[2020-11-08 오후 4:11:56] S:\SPI Job\SPI_bosch_Suzhou\3332A10121_R2.mdb_Job Load in C-Editor Completed!
+[2020-11-09 오전 8:40:36] S:\SPI Job\SPI_bosch_Suzhou\3332AJ0030_R2.mdb_Job Load in C-Editor Completed!
